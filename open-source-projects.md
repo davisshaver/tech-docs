@@ -20,3 +20,4 @@ These are all of the current and upcoming open source projects Fusion is embarki
 
 * [Image Shortcake](https://github.com/fusioneng/image-shortcake) - Images as shortcodes. Used with [Shortcake](https://github.com/fusioneng/shortcake).
 * [Unified Post Types](https://github.com/fusioneng/Unified-Post-Types) - Consolidates a whitelist of custom post types to one "Manage Posts" view.
+* [Co-Authors Plus Roles](https://github.com/fusioneng/Co-Authors-Plus-Roles) - Adds the ability to specify "roles" for co-authors and guest authors on posts.  Used with [Automattic's Co-Authors Plus plugin](https://github.com/Automattic/Co-Authors-Plus).
