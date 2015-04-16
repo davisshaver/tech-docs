@@ -1,1 +1,0 @@
-# WordPress.com VIP Elasticsearch
