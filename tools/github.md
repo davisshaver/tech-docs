@@ -3,17 +3,17 @@
 We use Github for all of our development projects. Here's a quick summary:
 
 * Github Issues are often used in conjunction with [Trello cards](tools/trello.md) to break a project into multiple implementation steps.
-* We follow a feature branch pull request workflow. Developers are encourage to commit often and keep their commit history — no squashing, please.
-* An issue can comprise multiple pull requests. Only once the issue has passed business acceptance should it be closed.
+* We follow a feature branch pull request workflow. Developers are encourage to commit often and keep their commit history clean — no squashing, please.
+* An issue can comprise multiple pull requests. Issues should only be closed after final product owner signoff.
 
 Read on for more detail on how we use Github.
 
 ## Issues
 
-* Clear titles make everything much more manageable. For instance, "Twitter optimization" is better as "Incorporate Twitter Card meta tags into header just now."
+* Clear titles make everything much more manageable. For instance, "Twitter optimization" is better as "Incorporate Twitter Card meta tags into header".
 * Use in-description task lists to itemize components of the issue: `* [ ] Specific thing needing to be done`
-* Be descriptive in your issue description. Feel free to rewrite / modify as needed to clarify.
-* Poorly-defined issues, or ideas more broadly, shouldn't be filed as Github issues. Ideas should go in the Fusion for the Future repo.
+* Be descriptive in your issue description. Feel free to rewrite/modify as needed to clarify.
+* Issues should only be filed once they can be specific and actionable. Ideas and concepts should go in the Fusion for the Future repo.
 
 ## Labels
 
@@ -25,7 +25,7 @@ We're rolling with 4 priority levels:
 
 **Medium:** Items that can be put off until the next full work week. Some of these may soon be designated as high based on developer bandwidth, but if they can't be, your feelings won't get hurt. 
 
-**Low:** Items that we definitely want to get to, but if it takes 2+ weeks to get to them, that's ok. The key is to keep these concise - anything too vague needs to go to <i>for-the-future</i> or pubbed in 02. These should still be actionable, in case a developer wants to grab as part of a relatable higher-ranked ticket. 
+**Low:** Items that we definitely want to get to, but if it takes 2+ weeks to get to them, that's ok. The key is to keep these concise - anything too vague needs to go to <i>for-the-future</i>, developed as a Trello card, or published in 02. These low priority issues should still be actionable, in case a developer wants to grab as part of a relatable higher-ranked ticket. 
 
 ## Pull Requests
 
@@ -45,7 +45,7 @@ Issues should exist for pull requests as much as possible. Issues are how we tra
 
 ## Milestones
 
-Milestones are used alongside our Huboard-based status workflow. They are:
+Milestones are sometimes used alongside our Huboard-based status workflow. They are:
 
 * Created on a product scope by product scope basis. For instance, our first milestone was improvements to the editorial experience.
 * Assigned a deadline, although this will serve more as a guide than a hard and fast rule. We don’t want to cut corners just because we have a deadline.
