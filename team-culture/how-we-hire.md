@@ -6,7 +6,7 @@ We'll chat with anyone who wants to learn about our work. We publish about our p
 
 As part of this process, you'll also get access to our pre-app form. The pre-app form can be submitted anytime after your first chat with a Fusion team member. Sometimes candidates will talk to more than one team member before submitting.
 
-The pre-app form pitches a mini-project that will let our team work with you for a brief period of time on a topic of shared interest. Maybe it's an open source project that needs some help finishing a release or feature, a pain point we mentioned in a conversation, a tool you've always wanted to build that sounds friggin' awesome (our words, not yours).
+The pre-app form pitches a mini-project that will let our team work with you for a brief period of time on a topic of shared interest. Maybe it's an open source project that needs some help finishing a release or feature, a pain point we mentioned in a conversation, a tool you've always wanted to build that sounds friggin' awesome (our words, not yours). The best applications are usually a combination of your idea and our idea, but anywhere along the spectrum is fine.
 
 ## Applications
 Application projects last 10-15 hours (TK: how can we scalably compensate) and can be mostly asynchronous. You'll be using [our Github workflow](http://fusion.net/story/109294/how-we-use-github-to-release-quality-code-at-fusion/) and hanging with us on Slack. At the end of the application, we'll make an offer (or not) and give you some feedback about our thinking. 
