@@ -1,5 +1,5 @@
 # How we hire
-Fusion tech hires differently than most media companies. Rather than a traditional interview process, we start with conversations and, if you want, then work together with candidates on short application projects.
+Fusion tech hires differently than most media companies. Rather than a traditional interview process, we start with conversations. If those conversations go well, we offer the opportunity to work with us on a short application project.
 
 ### Conversations
 We'll chat with anyone who wants to learn about our work. We publish about our projects and processes often, and we love talking to others who are excited about this stuff. Not an interview, a conversation. 
