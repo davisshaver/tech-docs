@@ -1,6 +1,6 @@
 # Slack
 
-We use [Slack](https://slack.com/) at Fusion for our synchronous, realtime backchannel. Slack replaces the need for email and facilitates quick exchanges of information between groups and individuals.
+We use [Slack](https://slack.com/) at Fusion for our synchronous, realtime backchannel. Slack replaces the need for email and facilitates quick exchanges of information between groups and individuals. It also acts as a unifying layer for alerts and updates from all kinds of third-party systems, like Trello, Github, Travis CI, and many more.
 
 Our rooms include:
 
