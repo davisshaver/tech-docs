@@ -2,9 +2,9 @@
 
 These are the core values of Fusion's technology team.
 
-**Communicate Clearly:** Communication is the oxygen of a distributed team. Our ability to operate effectively directly correlates with our ability to communicate effectively. We use the best tool for the job (Slack, Google Hangout, O2, Github issue, or phone) to make sure we’re always on-point. Meetings are used sparingly.
-
 **Quality is Everyone’s Responsibility:** To build a world-class product, we need to do our job well. If you see an issue, take ownership of making sure it gets fixed. If you think a feature is important to add, take the lead in making it happen. If you think our team culture can be improved in a specific way, be the example for others to emulate.
+
+**Communicate Clearly:** Communication is the oxygen of a distributed team. Our ability to operate effectively directly correlates with our ability to communicate effectively. We use the best tool for the job (Slack, Google Hangout, O2, Github issue, or phone) to make sure we’re always on-point. Meetings are used sparingly.
 
 **Work to Live, Not Live to Work:** Morning person? Start your day at 6 am. Evening person? Start your day at 3 pm. Your kid is taking swim lessons? Simply block those hours out on your calendar. As a distributed team, we prioritize productivity over meetings — work whenever you’re most effective.
 
