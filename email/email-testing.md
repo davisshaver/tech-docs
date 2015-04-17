@@ -1,4 +1,4 @@
-<ol><li>Login to Litmus.</li>
+<ol><li>Login to Litmus using credentials in Meldium.</li>
 <li>Hit the <code>New Email Test</code> button.</li>
 <li>Choose your clients.</li>
 <li>Hit the <code>Start Test</code>.</li>
