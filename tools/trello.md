@@ -26,4 +26,4 @@ Our Experiments Board is where we keep track of Product Design experiences being
 
 The Tech Blog Board is where we keep track of the blog posts we're working on for [our section of the website](http://fusion.net/section/tech-product).
 
-Feel free to create cards as you have ideas. Linking to an editable Google Doc from within the card is a good way to offer a scratchpad for the 
+Feel free to create cards as you have ideas. Linking to an editable Google Doc from within the card is a good way to offer a scratchpad for collaborative writing/editing. The Fusion art department will help you with art if you find them on Slack. We also encourage trying lists, galleries, and other content types – dog food at its finest.
