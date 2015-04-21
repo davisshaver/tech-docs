@@ -1,5 +1,5 @@
 #VIP Quickstart
-Because Fusion.net is hosted  use [VIP Quickstart](https://github.com/Automattic/vip-quickstart) as our WordPress development environment.
+Because Fusion.net is hosted on WordPress VIP, we use [VIP Quickstart](https://github.com/Automattic/vip-quickstart) as our WordPress development environment.
 
 ## Setting up VIP Quickstart
 1. Follow the <a href="https://vip.wordpress.com/documentation/quickstart/">VIP Quickstart</a> documentation. You should now have a running WordPress installation
