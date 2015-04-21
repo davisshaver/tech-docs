@@ -17,7 +17,7 @@ You should be comfortable with version control. We expect you to have launched _
 
 Web development experience (any combo of PHP, Python, JavaScript, and SCSS) is highly recommended, but not required. If you don't have development experience, we will expect you to be excited about user interface and user experience design.
 
-We'd also like you to [share our team values](https://github.com/fusioneng/tech-docs/blob/master/team-culture/values.md) and are glad to discuss what they mean if you're unsure.
+We'd also like you to [share our team values](team-culture/values.md) and are glad to discuss what they mean if you're unsure.
 
 ## The Deal
 This is Fusion tech + products first internship. It will be awesome, and possibly unlike any internships in the future. That's because you're going to help us design the next one.
