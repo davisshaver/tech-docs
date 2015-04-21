@@ -1,4 +1,4 @@
-#Distributed product internship
+# Product internship
 Are you the webmaster of your campus newspaper? 
 
 Do campus newspapers even have webmasters these days? 
