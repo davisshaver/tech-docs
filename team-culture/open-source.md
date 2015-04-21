@@ -26,4 +26,6 @@ GIF2HTML5 | Converts GIFs to HTML5 video, and pushes the files to S3.
 Name | Description
 ---- | -----------
 [Image Shortcake](https://github.com/fusioneng/image-shortcake) | Images as shortcodes. Used with [Shortcake](https://github.com/fusioneng/shortcake).
+[GIF2HTML5](https://github.com/fusioneng/gif2html5-plugin) | Integrates with GIF2HTML5 middleware to seamlessly serve GIFs as HTML5 video.
+[Shortcake Factory](https://github.com/fusioneng/shortcake-bakery) | A fine selection of shortcodes for your WordPress. Optionally used with [Shortcake](https://github.com/fusioneng/shortcake).
 [Unified Post Types](https://github.com/fusioneng/Unified-Post-Types) | Consolidates a whitelist of custom post types to one "Manage Posts" view.
