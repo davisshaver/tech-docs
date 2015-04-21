@@ -4,7 +4,7 @@ We use [Grunt](http://gruntjs.com/getting-started) as our build sytem for compil
 
 1. Make sure you have [Grunt](http://gruntjs.com/getting-started) installed globally.
 1. Go to your theme directory and install the necessary libraries using <code>npm install</code>
-1. Vola! Run <code>grunt watch</code> in your terminal and leave it there. It will watch your change and recompile everything for you. You should see something like this.
+1. Voilà! Run <code>grunt watch</code> in your terminal and leave it there. It will watch your change and recompile everything for you. You should see something like this.
 
 ```
 Running "watch" task
