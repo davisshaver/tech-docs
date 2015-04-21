@@ -23,11 +23,11 @@ Lastly, you [share our team values](team-culture/values.md).
 
 ## The Deal
 
-This is a full-time internship with a $1,000 weekly stipend, or approximately $25/hour for 40 hours each week. 
+This is a full-time internship with a $800 weekly stipend, or approximately $20/hour for 40 hours each week. 
 
 Because we're distributed, you'll have some flexibility on when those hours happen. However, we expect that the majority will fall during normal east coast business hours (7am - 7pm EST).
 
-You'll also be invited to attend a Fusion meetup or mini-meetup somewhere in the country (details TBD). [Our meetups](fusion.net/list/61358/5-lessons-from-our-distributed-tech-teams-first-meetup/) are pretty cool and we think you'll enjoy the experience – the last one included South Beach, an escape game, a beer garden, and a hackathon.
+You'll also be invited to attend a Fusion meetup or mini-meetup somewhere in the country (details TBD). [Our meetups](fusion.net/list/61358/5-lessons-from-our-distributed-tech-teams-first-meetup/) are pretty cool and we think you'll enjoy the experience – the last one included South Beach, an escape game, a beer garden, and a hackathon. We will pay for your costs.
 
 ## The Application
 
