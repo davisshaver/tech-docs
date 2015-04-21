@@ -1,4 +1,4 @@
-# WordPress tests
+# Unit and Integration Tests
 
 ## How to run fusion-theme tests
 1. Run `vagrant up` to start the machine. SSH into the machine using `vagrant ssh`.
