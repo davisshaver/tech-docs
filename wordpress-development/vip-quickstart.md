@@ -13,11 +13,7 @@ Because Fusion.net is hosted on WordPress.com VIP, we use [VIP Quickstart](https
 
 ## Updating VIP Quickstart
 
-Go to the VIP Quickstart folder and run the following commands.
-
-    vagrant ssh
-    cd /srv/www/wp; svn up
-    
+VIP Quickstart has its own update mechanism. First, make sure the Quickstart code is up to date with `git pull origin master`. Then, inside the Quickstart working directory, you can run `vagrant provision`, which will re-run all provisioning steps.
     
 ## How to import a post database
 
