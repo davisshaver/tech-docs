@@ -31,7 +31,7 @@ We're rolling with 4 priority levels:
 
 Code is developed on feature branches. Pull requests are where we discuss the development in progress, and determine whether a given feature branch is ready for merging to master.
 
-Please create your pull request as soon as you start work on a branch.
+Please create your pull request as soon as you start work on a branch. If you are working on the pull request, assign it to yourself. If you're want feedback or a #reviewmerge from someone else, assign the pull request to them.
 
 When creating a branch, please use the following naming structure: <code>(number of original Github issue)-followed-by-keywords-describing-the-project</code>.
 
