@@ -7,7 +7,7 @@ Or newspapers?
 
 You know the answers to these questions, because tech + media are your passion. You like where you live and have a good work-life balance already established. 
 
-## The Job
+## The Gig
 Fusion's tech + product team is seeking a single distributed product intern to do two things:
 
 1. Help us build world-class media products.
