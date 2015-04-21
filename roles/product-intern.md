@@ -30,3 +30,14 @@ Because we're distributed, you'll have some flexibility on when those hours happ
 You'll also be invited to attend a Fusion meetup or mini-meetup somewhere in the country (details TBD). [Our meetups](fusion.net/list/61358/5-lessons-from-our-distributed-tech-teams-first-meetup/) are pretty cool and we think you'll enjoy the experience – the last one included South Beach, an escape game, a beer garden, and a hackathon.
 
 ## The Application
+
+Email [tech-jobs@fusion.net](mailto:tech-jobs@fusion.net) with `Product Internship` as the subject and the following:
+
+- Your resume
+- Relevant public social profiles (LinkedIn, Github, Twitter)
+- Links to 1 or 2 projects you helped launch (describe your role)
+- No more than 300 words on why you want this internship
+
+If you look like a fit, we'll schedule you for interviews with team members (don't worry, our interviews aren't brutal – we'll even provide you with the questions in advance).
+
+We hope to have a decision made by mid-May. Please contact the email address above with any questions.
