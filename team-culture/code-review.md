@@ -42,7 +42,8 @@ cases, bugs, or security vulnerabilities, those issues need to be addressed
 before coding style guidelines or beautification practices preferences will
 matter.
 
-(image here)
+![code-review-pyramid](https://cloud.githubusercontent.com/assets/665992/7326019/1603bcd2-ea77-11e4-8510-4d7f76ca2ad1.png)
+
 
 
 ### How to review code
