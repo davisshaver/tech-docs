@@ -18,7 +18,7 @@ Blocking issues that prevent publishing - e.g. backend is frozen for all writers
 
 2. How can we better include stakeholders in the QA process so we don’t miss blockers?
 
-Note when projects are beginning the stakeholders and make sure they are aware with the changes being made.
+Notify stakeholders early on of changes happening around their specific areas, making clear what and how they will impact what is currently there.
 
 3. How should we make sure we have appropriate tech support coverage outside of normal business hours?
 
