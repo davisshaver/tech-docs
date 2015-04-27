@@ -33,6 +33,8 @@ Code is developed on feature branches. Pull requests are where we discuss the de
 
 Please create your pull request as soon as you start work on a branch. If you are working on the pull request, assign it to yourself. If you're want feedback or a #reviewmerge from someone else, assign the pull request to them.
 
+Remember to check your diff regularly to make sure you're only changing code you expect to be.
+
 When creating a branch, please use the following naming structure: <code>(number of original Github issue)-followed-by-keywords-describing-the-project</code>.
 
 When creating a pull request, please use a clear title and reference the issue in the pull request description:
