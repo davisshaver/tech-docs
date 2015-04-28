@@ -6,7 +6,7 @@ We use Github for all of our development projects. Here's a quick summary:
 * We follow a feature branch pull request workflow. Developers are encourage to commit often and keep their commit history clean — no squashing, please.
 * An issue can comprise multiple pull requests. Issues should only be closed after final product owner signoff.
 
-Read on for more detail on how we use Github.
+Read on for more detail on how we use Github: [Issues](#issues), [Labels](#labels), [Pull Requests](#pull-requests), [Milestones](#milestones)
 
 ## Issues
 
