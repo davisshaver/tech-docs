@@ -109,6 +109,6 @@ the team process. If something isn't clear to someone familiar with the odebase
 who's reviewing your work today, it will definitely be unclear to a new
 developer being onboarded six months from now.
 
+## Additional readings
 
-
-
+* [Glen Sanford: On code review](http://glen.nu/ramblings/oncodereview.php) - "Pending code reviews represent blocked threads of execution[, code review should always be your top priority]"
