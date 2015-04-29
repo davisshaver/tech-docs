@@ -24,69 +24,8 @@ Other parameters:
 * `cd`: Another important query param, used to set multiple width and height in the request, e.g. `cd=1,1|300,250`
 _Note: The `cd` attribute be used to serve 1x1 pixel (still under testing)_
 
-**POLAR:**
-Recently, we started implementing Polar ads for branded content. Its a bit complicated than implementing regular ads. There are following components:
-* Media Voice (Polar CMS): This is where ad sales team populates data. 
-https://mediavoice.com/present
-* Plugin to generate script (http://plugin.mediavoice.com/bookmarklet/ui/index.html#)
-Handlebar template: Polar uses handlebar js to generate the ad. 
-
-Types of Polar ads implemented by us (as of 03/19): 
-Homepage 
-Article
-Article Collection
-
-Each of the above mentioned is using their own template which is generated via plugin mentioned above. (reference file: assets/js/src/polar-ads.js)
-
-
-
-Gist of Polar lies in the below code (find it in polar-ads.js)
-```
- ads.setPropertyID("NA-FUSINET-11236680"); // Unique ID associated with Fusion’s account
-        ads.setSecondaryPageURL("/sample/publisher/sponsored.html");
-        ads.insertPreview({
-            label: fusionData['polar'].label, //identifier for homepage or article or any other post where Polar ads are appearing 
-            unit: { // Freewheel settings
-                "server": "freewheel",
-                "hostName": "2912a.v.fwmrm.net",
-                "network": fusionData['polar'].freewheelNetworkId,
-                "csid": "fs_other",
-                "profile": "168234:Display",
-                "ssto": "",
-                "slau": fusionData['polar'].adUnit, 
-            },
-            location: "#polar-ad", // location where Polar ads are placed after page load
-            infoText: "",
-            infoButtonText: "",
-            template: fusionData['polar'].isHome ? homepageTemplate : collectionWrapperTemplate, // template to use 
-            onRender: function($element) {
-            	if( ! fusionData['polar'].isHome ) {
-	                addCollectionItem('#polar-col2'); // chaining for collection template. 
-	                addCollectionItem('#polar-col3');// chaining for collection template
-            	}
-            },
-            onFill: function(data) {},
-            onError: function(error) {}
-        });
-        
-        ads.configureSecondaryPage({
-            track: function() {}
-        });
-```
-
-Article collection is a little tricky. we are using `onRender()` function for chaining. After the first ad loads, it calls the next one and so on. 
-
-So, really, its just a template which is of uttermost importance. Everything else is a constant. For example if we want to change the article collection template to a single ad campaign. All we need to do is to pass another template instead of collectionWrapperTemplate in above code sample. 
-
-
-
-
-**Polar for Future:**
-Internalizing the template: It would be nice to internalize the handlebar templates rather than to use the media voice plugin each time we have to make a change to the existing template or create a new one. Only caveat to this is how to get data from Polar? 
-
 
 # Wordpress Implementation
-
 **Files to reference:**
 * /inc/class-ads.php
 * /parts/ads/freewheel-ad.php
@@ -138,3 +77,58 @@ We are mostly using tq.caid (for ad targeting) and tq.section (for site section 
 * We don't have access to Freewheel Admin as the contract lies with ABC News. Only ABC employees are allowed to access Freewheel Admin. Will it be helpful? 
  * For one, we will be able to see how the ads are rendered behind the scene. Meaning, how FW process the request? If the request fails, what are the exact problems (specially helpful while debugging video pre-roll). 
  * Secondly, as we sell more campaigns, we will need to switch to ad targeting. Meaning, show sold campaign on articles. For this, ad sales team has to create a tag in FW. If we have access to admin, it will save a lot of time. 
+
+
+*POLAR:*
+Polar is implemented for branded content. This integration consists of two Polar touch points:
+* [Media Voice](https://mediavoice.com/present) (Polar CMS): This is where ad sales team populates data
+* [Plugin to generate script](http://plugin.mediavoice.com/bookmarklet/ui/index.html#)
+Handlebar template: Polar uses handlebar js to generate the ad. 
+
+Polar ad templates implemented as of 03/19: 
+- Homepage 
+- Article
+- Article Collection
+
+The Fusion theme implementation of Polar is [here in polar-ad.js](https://github.com/fusioneng/fusion-theme/blob/master/assets/js/src/polar-ad.js).
+
+The essence lies in the following excerpted code:
+```
+ ads.setPropertyID("NA-FUSINET-11236680"); // Unique ID associated with Fusion’s account
+        ads.setSecondaryPageURL("/sample/publisher/sponsored.html");
+        ads.insertPreview({
+            label: fusionData['polar'].label, //identifier for homepage or article or any other post where Polar ads are appearing 
+            unit: { // Freewheel settings
+                "server": "freewheel",
+                "hostName": "2912a.v.fwmrm.net",
+                "network": fusionData['polar'].freewheelNetworkId,
+                "csid": "fs_other",
+                "profile": "168234:Display",
+                "ssto": "",
+                "slau": fusionData['polar'].adUnit, 
+            },
+            location: "#polar-ad", // location where Polar ads are placed after page load
+            infoText: "",
+            infoButtonText: "",
+            template: fusionData['polar'].isHome ? homepageTemplate : collectionWrapperTemplate, // template to use 
+            onRender: function($element) {
+            	if( ! fusionData['polar'].isHome ) {
+	                addCollectionItem('#polar-col2'); // chaining for collection template. 
+	                addCollectionItem('#polar-col3');// chaining for collection template
+            	}
+            },
+            onFill: function(data) {},
+            onError: function(error) {}
+        });
+        
+        ads.configureSecondaryPage({
+            track: function() {}
+        });
+```
+
+The article collection template is trickier than homepage or article. We are using `onRender()` function for chaining, so that after the first ad loads, it calls the next one and so on. 
+
+The template is very important because everything else is a constant. For example if we want to change the article collection template to a single ad campaign, we need to do is to pass another template instead of `collectionWrapperTemplate` in above code sample. 
+
+**Polar for Future:**
+Internalizing the template: It would be nice to internalize the handlebar templates rather than to use the media voice plugin each time we have to make a change to the existing template or create a new one. Only caveat to this – how could we get data from Polar? 
