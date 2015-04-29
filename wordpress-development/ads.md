@@ -25,19 +25,20 @@ Other parameters:
 _Note: The `cd` attribute be used to serve 1x1 pixel (still under testing)_
 
 
-# Wordpress Implementation
+### Wordpress Implementation
 **Files to reference:**
-* /inc/class-ads.php
-* /parts/ads/freewheel-ad.php
+* [/inc/class-ads.php](https://github.com/fusioneng/fusion-theme/blob/master/inc/class-ads.php)
+* [/parts/ads/freewheel-ad.php](https://github.com/fusioneng/fusion-theme/blob/master/parts/ads/freewheel-ad.php)
 
-**Wordpress Settings**
-* In dashboard, you have an option to go to settings->ads, if you want to turn on/off freewheel/polar ads on the whole site. 
-* On each article, there is a setting under Production->ad to turn on/off freewheel/polar ad on that article page. NOTE: this takes higher precedence than the general setting mentioned above. 
-* Also, on each article, there is a setting to target sold campaign under Production->ad. 
- * Select `enable` from drop-down list for Freewheel Tag
- * Enter the tag which you got from Sales team. This tag is generated in Freewheel Admin by our Sales team. 
+####Wordpress Settings
+* In dashboard, you have an option to go to settings->ads, if you want to turn on/off freewheel/polar ads on the whole site.
+
+* On each article, there is a setting under Production->ad to turn on/off freewheel/polar ad on that article page. NOTE: this takes higher precedence than the general setting mentioned above.
+![screen shot 2015-04-29 at 5 28 51 pm](https://cloud.githubusercontent.com/assets/1636964/7401847/4b3614b4-ee95-11e4-961d-d2b11bc5e294.png)
+
+Notice the setting above to target a sold campaign – the user can select `enable` from drop-down list for Freewheel Tag and then enter the tag that they got from Sales. As described above, this tag is generated in Freewheel Admin by Sales. 
  
-When we implement ads using
+A couple things happen behind then scenes when we render an ad using:
 ```
 <?php echo Fusion()->get_ad( array(
 	'type'          => 'Banner',
@@ -46,38 +47,33 @@ When we implement ads using
 	'id'		=> 'header-ad-desktop'
 )); ?>
 ```
-couple of things are happening behind the scene.
+
 1. Front End UI is generated using the `class` and `id` parameters which are later used to control the styles.
 2. We generate the request URI using 
 	* the `type` of ad (Banner, in the example above).
 	* Site section id is dependent on the section you are on. Currently its `fs_homepage` for hompepage and `fs_other` for everything else.
 
-**How does this magic happens?**
+####How does this magic happens?
 If you have work with ads, you must have noticed following object:
-* tq.path=’/homepage/homepage’
-* tq.caid=’’
-* tq.keywords=’’
-* tq.show=’’
-* tq.id=’’
-* tq.section=’homepage’
-* tq.realsection=’’
-* tq.subsection=’’
-* tq.altsection=’’
-* tq.objType=’’
-* tq.byline=’’
-* tq.othersubs=’’
+* `tq.path='/homepage/homepage'`
+* `tq.caid=''`
+* `tq.keywords=''`
+* `tq.show=''`
+* `tq.id=''`
+* `tq.section='homepage'`
+* `tq.realsection=''`
+* `tq.subsection=''`
+* `tq.altsection=''`
+* `tq.objType=''`
+* `tq.byline=''`
+* `tq.othersubs=''`
 
-This got carried forward from how ABC News was doing their ads. I am sure some of these variables does make sense if you read the terminology. 
+These attributes got carried forward from how ABC News targets their ads. 
 
-We are mostly using tq.caid (for ad targeting) and tq.section (for site section id). I am not sure of the other variables, though, which we should definitely ask Peter (from ABC News) and update this document. My guess is that these are for some type of targeting, for example if we want to target a whole show. we would set tq.show, for instance. 
+We are mostly using `tq.caid` (for ad targeting) and `tq.section` (for site section id). TK: What the other variables could be used for.
 
-
-
-**PROBLEMS:**
-* We don't have access to Freewheel Admin as the contract lies with ABC News. Only ABC employees are allowed to access Freewheel Admin. Will it be helpful? 
- * For one, we will be able to see how the ads are rendered behind the scene. Meaning, how FW process the request? If the request fails, what are the exact problems (specially helpful while debugging video pre-roll). 
- * Secondly, as we sell more campaigns, we will need to switch to ad targeting. Meaning, show sold campaign on articles. For this, ad sales team has to create a tag in FW. If we have access to admin, it will save a lot of time. 
-
+####Known issues
+* We don't have access to Freewheel Admin as the contract lies with ABC News. Only ABC employees are allowed to access Freewheel Admin. This causes some bottleneck issues with producing new campaigns and diagnosing issues, so we hope to mitigate in the future.
 
 ## Polar
 Polar is implemented for branded content. This integration consists of two Polar touch points:
