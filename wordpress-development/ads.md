@@ -5,28 +5,24 @@
 * Freewheel Pre-roll (Video)
 * Polar (using Freewheel)
 
-**Important terminology:**
-* Request URI: Sent to Freewheel. Looks like:
+**Freewheel:**
+* _Request URI:_ Sent to Freewheel. Looks like:
 ```
 http://2912a.v.fwmrm.net/ad/g/1?nw=379215&sfid=918347&csid=fs_homepage&caid=&pvrn=708210157-994480735&resp=ad;pageType=homepage;ptgt=s&envp=g_js&slid=leaderboard&w=728&h=90&slau=Leaderboard%20728x90
 ```
-* MRM Network ID: Constant associated with our account
-nw=379215
-* Site Section Network ID: Another constant for our account
-sfid=918347
-* Site Section Id: Used by ad sales people to target particular sections, for ex., Homepage, Culture, Justice (before re-launch). After relaunch, we have two sections:
-Homepage (csid=fs_homepage), targeting Homepage.
-Other (csid=fs_other), targeting everything else. 
-* Freewheel Ad Targeting: When running sold ad on any particular post. To do this ad sales team generates a tag in Freewheel, “Tags/LegendaryFilms” for instance. This tag is then set to “caid”:
-caid=”Tags/LegendaryFilms”
-This functionality is already built. See Production->Ad tab. https://fusiondotnet.wordpress.com/wp-admin/post.php?post=105604&action=edit
-* slid & slau: Query params used by ad sales team to identify different types of ads, Rectangle, Banner, MobileBanner etc. 
-cd: Another important query param, used to set multiple width and height in the request. 
-* cd=1,1|300,250
-Can be used to serve 1x1 pixel (still under testing)
+* _MRM Network ID:_ Constant associated with our account, `nw=379215`
+* _Site Section Network ID:_ Another constant for our account, `sfid=918347`
+* _Site Section ID:_ Used by ad sales to target particular sections. With the 2015 site launch, we have two sections:
+Homepage, `csid=fs_homepage`
+Other (for everything else), `csid=fs_other`
+* _Freewheel Ad Targeting:_ The process for running a sold ad on any particular post. Ad sales team generates a tag in Freewheel, `Tags/LegendaryFilms` for instance. This tag's `caid` is then set, e.g. `caid="Tags/LegendaryFilms"`
+This functionality is already built. See Production->Ad tab. 
+![screen shot 2015-04-29 at 5 28 51 pm](https://cloud.githubusercontent.com/assets/1636964/7401847/4b3614b4-ee95-11e4-961d-d2b11bc5e294.png)
 
-**NOTE**: Above terminology is more or less based on the request URI we generate and send to Freewheel. 
-
+Other parameters:
+* `slid` & `slau`: Used to identify different types of ads, e.g. Rectangle, Banner, MobileBanner etc. 
+* `cd`: Another important query param, used to set multiple width and height in the request, e.g. `cd=1,1|300,250`
+_Note: The `cd` attribute be used to serve 1x1 pixel (still under testing)_
 
 **POLAR:**
 Recently, we started implementing Polar ads for branded content. Its a bit complicated than implementing regular ads. There are following components:
