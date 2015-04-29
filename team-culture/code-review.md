@@ -28,15 +28,18 @@ makes review simpler, because each review stage wil be looking at a small code.
   notification that their pull needs to be fixed before it can be reviewed or
   merged.
 - When the original developer is satisfied with their work, they can assign the
-  pull request to another team member for review. Simple pull requests can be
-  merged by the developer who reviews them.
-- More complex changesets will often require back and forth between reviewer
-  and developer. Github's "Changes" tab is a good place to leave line comments
-  on specific code. More general comments can be left on the PR "Discussion"
-  tab. When the reviewer is done with their review, they will assign the PR
-  back to the original developer to address the issues which were brought up.
-- The developer will make changes suggested, discuss issue for clarity, and
-  reassign it to the reviewer when they are satisfied with their work.
+  pull request to another team member for review. 
+- Simple pull requests can be merged by the developer who reviews them. More
+  complex changesets will often require conversations back and forth between
+  reviewer and developer. 
+- Github's "Files Changed" tab is a good place to leave inline comments on
+  specific parts of the changeset. More general comments can be left on the
+  pull request's "Conversation" tab.  
+- When the reviewer is done with their review, they will assign the PR back to
+  the original developer to address any issues which were brought up.
+- The developer will make changes suggested, discuss the issue for clarity, and
+  may rewrite  reassign it to the reviewer when they are satisfied with their
+  work.
 - When the reviewer is satisfied with changes, they can either merge or assign
   the pull request to a team lead to merge and push to production.
 
