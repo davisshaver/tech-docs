@@ -4,7 +4,7 @@ Fusion tech hires differently than most media companies. Rather than a tradition
 ### Conversations
 We'll chat with anyone who wants to learn about our work. We publish about our projects and processes often, and we love talking to others who are excited about this stuff. Not an interview, a conversation. 
 
-As part of this process, you'll also get access to our pre-app form. The pre-app form can be submitted anytime after your first chat with a Fusion team member. Sometimes candidates will talk to more than one team member before submitting.
+As part of this process, we'll also answer any questions you have about [our pre-app form](https://docs.google.com/forms/d/1OAb8FebRcfqCRBHx3CYY1kxibJFw9VORHhV14KLadeI/viewform). The pre-app form can be submitted anytime after your first chat with a Fusion team member. Sometimes candidates will talk to more than one team member before submitting.
 
 The pre-app form pitches a mini-project that will let our team work with you for a brief period of time on a topic of shared interest. Maybe it's an open source project that needs some help finishing a release or feature, a pain point we mentioned in a conversation, a tool you've always wanted to build that sounds friggin' awesome (our words, not yours). The best applications are usually a combination of your idea and our idea, but anywhere along the spectrum is fine.
 
