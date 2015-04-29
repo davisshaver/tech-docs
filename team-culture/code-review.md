@@ -15,15 +15,18 @@ Here's how we do it at Fusion:
 
 ## A typical code review workflow
 
-- We're currently using Github for everything. Read up on [our Github
-  workflow](../tools/github.md) for details of process, naming, usage of issues
-  and pull requests.
-- A moderately complex issue will typically be addressed in multiple pull
-  requests, each tackling a distinct part of the issue. 
-- On every commit pushed to a GH branch, CI automated tests are run on Travis.
-  If the build passes, the PR can be reviewed. If not, the original developer
-  will receive email notification that their pull needs to be fixed before it
-  can be reviewed or merged.
+We're currently using Github for everything. Read up on [our Github
+workflow](../tools/github.md) for details of process, naming, usage of issues
+and pull requests. A moderately complex issue will typically be addressed
+across multiple pull requests, each tackling a distinct part of the issue. This
+makes review simpler, because each review stage wil be looking at a small code.
+
+- On every commit pushed to a GH branch, our CI automated tests -- linting for
+  all code, unit tests for functional code, and ideally, behavioral and
+  sutomated acceptance testing -- are run on Travis.  If the build passes,
+  the PR can be reviewed.  If not, the original developer will receive email
+  notification that their pull needs to be fixed before it can be reviewed or
+  merged.
 - When the original developer is satisfied with their work, they can assign the
   pull request to another team member for review. Simple pull requests can be
   merged by the developer who reviews them.
