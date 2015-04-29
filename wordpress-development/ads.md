@@ -7,7 +7,9 @@
 
 **Important terminology:**
 * Request URI: Sent to Freewheel. Looks like:
+```
 http://2912a.v.fwmrm.net/ad/g/1?nw=379215&sfid=918347&csid=fs_homepage&caid=&pvrn=708210157-994480735&resp=ad;pageType=homepage;ptgt=s&envp=g_js&slid=leaderboard&w=728&h=90&slau=Leaderboard%20728x90
+```
 * MRM Network ID: Constant associated with our account
 nw=379215
 * Site Section Network ID: Another constant for our account
