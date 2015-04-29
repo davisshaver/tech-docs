@@ -5,7 +5,7 @@
 * Freewheel Pre-roll (Video)
 * Polar (using Freewheel)
 
-**Freewheel:**
+## Freewheel
 * _Request URI:_ Sent to Freewheel. Looks like:
 ```
 http://2912a.v.fwmrm.net/ad/g/1?nw=379215&sfid=918347&csid=fs_homepage&caid=&pvrn=708210157-994480735&resp=ad;pageType=homepage;ptgt=s&envp=g_js&slid=leaderboard&w=728&h=90&slau=Leaderboard%20728x90
@@ -79,7 +79,7 @@ We are mostly using tq.caid (for ad targeting) and tq.section (for site section 
  * Secondly, as we sell more campaigns, we will need to switch to ad targeting. Meaning, show sold campaign on articles. For this, ad sales team has to create a tag in FW. If we have access to admin, it will save a lot of time. 
 
 
-*POLAR:*
+## Polar
 Polar is implemented for branded content. This integration consists of two Polar touch points:
 * [Media Voice](https://mediavoice.com/present) (Polar CMS): This is where ad sales team populates data
 * [Plugin to generate script](http://plugin.mediavoice.com/bookmarklet/ui/index.html#)
