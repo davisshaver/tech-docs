@@ -6,7 +6,7 @@ maintain quality output, as well as build cohesive styles in our work.
 Having a well-understood and cohesive style can make all our work easier
 to approach and maintain for new as well as established developers. If
 done right, code review can also be a learning process for all involved.
-Here's [ typical code review workflow at
+Here's [a typical code review workflow at
 Fusion](#a-typical-code-review-workflow):
 
 - [What code review is](#what-code-review-is)
