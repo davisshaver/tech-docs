@@ -46,17 +46,16 @@ makes review simpler, because each review stage wil be looking at a small code.
 
 ## What code review is
 
-A good way to visualize the objectives of code review is this analogy to
-Maslow's ["Hierarchy of
-Needs"](http://blog.d3in.org/post/111338685456/maslows-pyramid-of-code-review)
-pyramid. As a reviewer, you will be looking at the code on many levels. But its
-important to keep a sense of priorities: if a change introduces unhandled edge
-cases, bugs, or security vulnerabilities, those issues need to be addressed
-before coding style guidelines or beautification practices preferences will
-matter.
+A good way to visualize the objectives of code review is [this
+analogy](http://blog.d3in.org/post/111338685456/maslows-pyramid-of-code-review)
+to Maslow's "Hierarchy of Needs" pyramid. From most basic to the highest level,
+a reviewer is checking that code is **Correct**, **Secure**, **Readable**,
+**Elegant**, **Elegant**, and **Altruistic**. It's important to keep this sense
+of priorities: if a change introduces unhandled edge cases, bugs, or security
+vulnerabilities, those issues need to be addressed before coding style
+guidelines or beautification practices preferences will matter.
 
 ![code-review-pyramid](https://cloud.githubusercontent.com/assets/665992/7326019/1603bcd2-ea77-11e4-8510-4d7f76ca2ad1.png)
-
 
 
 ### How to review code
@@ -65,11 +64,6 @@ matter.
 change does and why it's essential. There's no point in critiquing anything
 until you understand what it does, why its necessary, and what decisions went
 into the way this was built.
-
-Automated tests are the first step of review. Do unit tests pass? Does it pass
-our jshint, wpcs, scss-lint, or other rules?  Tests and static analysis should
-be run first on the CI server. If code doesn't passing these tests, it should
-go back to the original author to address these issues before human review.
 
 Next, look it over for correctness. Are all functions which take parameters and
 produce output covered by unit tests? Do they actually do what they're supposed
@@ -83,14 +77,14 @@ is security.  Does it follow basic sanitization and escaping practices for all
 untrusted input? If it interacts with other aspects of the codebase, is it
 liberal in the inputs it accepts and conservative in its output,
 making sure to only pass expected values?  If it exposes data to authorized
-users though ajax or post actions, does it use nonces properly to protect
+users though Ajax or post actions, does it use nonces properly to protect
 against CSRF attacks?  Think like an attacker. If there's any way a malicious
 agent could exploit this code, or an unlucky user could trigger a bug that
 fatals or looks bad, it's your job to find it.
 
 Next, check for readability. Functions, variables, and files should be named
 clearly according to their meaning. HTML elements, attributes, and CSS
-selectors should be named semantically and consistantly with existing usage.
+selectors should be named semantically and consistently with existing usage.
 Everything should adhere to the surrounding code style. 
 
 > All code in any code-base should look like a single person typed it, no
@@ -108,7 +102,7 @@ code?
 Finally, check for elegance and overall quality. Code should follow existing
 and known patterns, so that others can understand it at a glance. If a change
 introduces a chance to refactor surrounding functionality, to abstract and
-standardize old code into new patterns, suggest those oportunities. 
+standardize old code into new patterns, suggest those opportunities. 
 
 
 ### How to receive code review
@@ -117,10 +111,16 @@ standardize old code into new patterns, suggest those oportunities.
 suggestions. Defensiveness, stubbornness, or impatience can prevent you from
 getting the most out of suggestions. Its OK to explain yourself if you feel the
 reviewer seemed to misunderstand your intent. Arguing semantics or insisting on
-the correctness of one approach is almost always a bad habit and distracts from
-the team process. If something isn't clear to someone familiar with the odebase
-who's reviewing your work today, it will definitely be unclear to a new
-developer being onboarded six months from now.
+the correctness of one approach is almost always a bad habit and distracts
+from the team process. If something isn't clear to someone familiar with
+the codebase who's reviewing your work today, it will definitely be
+unclear to a new developer being on-boarded six months from now.
+
+It's best to respond to the issues addressed by the reviewer immediately
+if possible. Keep in mind that the review process requires context
+switching on the part of the reviewer as well as on your part, and the
+more immediate that process is, the less disruptive that context
+switch will be.
 
 ## Additional readings
 
