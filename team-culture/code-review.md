@@ -23,7 +23,7 @@ makes review simpler, because each review stage wil be looking at a small code.
 
 - On every commit pushed to a GH branch, our CI automated tests -- linting for
   all code, unit tests for functional code, and ideally, behavioral and
-  sutomated acceptance testing -- are run on Travis.  If the build passes,
+  automated acceptance testing -- are run on Travis.  If the build passes,
   the PR can be reviewed.  If not, the original developer will receive email
   notification that their pull needs to be fixed before it can be reviewed or
   merged.
@@ -50,8 +50,8 @@ A good way to visualize the objectives of code review is [this
 analogy](http://blog.d3in.org/post/111338685456/maslows-pyramid-of-code-review)
 to Maslow's "Hierarchy of Needs" pyramid. From most basic to the highest level,
 a reviewer is checking that code is **Correct**, **Secure**, **Readable**,
-**Elegant**, **Elegant**, and **Altruistic**. It's important to keep this sense
-of priorities: if a change introduces unhandled edge cases, bugs, or security
+**Elegant**, and **Altruistic**. It's important to keep this sense of
+priorities: if a change introduces unhandled edge cases, bugs, or security
 vulnerabilities, those issues need to be addressed before coding style
 guidelines or beautification practices preferences will matter.
 
@@ -62,7 +62,7 @@ guidelines or beautification practices preferences will matter.
 
 *As a reviewer*, your first job is to get an understanding of what the proposed
 change does and why it's essential. There's no point in critiquing anything
-until you understand what it does, why its necessary, and what decisions went
+until you understand what it does, why it's necessary, and what decisions went
 into the way this was built.
 
 Next, look it over for correctness. Are all functions which take parameters and
@@ -109,11 +109,11 @@ standardize old code into new patterns, suggest those opportunities.
 
 *As the person receiving the code review*, your job is to learn from
 suggestions. Defensiveness, stubbornness, or impatience can prevent you from
-getting the most out of suggestions. Its OK to explain yourself if you feel the
-reviewer seemed to misunderstand your intent. Arguing semantics or insisting on
-the correctness of one approach is almost always a bad habit and distracts
-from the team process. If something isn't clear to someone familiar with
-the codebase who's reviewing your work today, it will definitely be
+getting the most out of suggestions. It's OK to explain yourself if you feel
+the reviewer seemed to misunderstand your intent. Arguing semantics or
+insisting on the correctness of one approach is almost always a bad habit and
+distracts from the team process. If something isn't clear to someone familiar
+with the codebase who's reviewing your work today, it will definitely be
 unclear to a new developer being on-boarded six months from now.
 
 It's best to respond to the issues addressed by the reviewer immediately
