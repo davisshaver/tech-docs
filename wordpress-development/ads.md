@@ -25,7 +25,7 @@ Other parameters:
 _Note: The `cd` attribute be used to serve 1x1 pixel (still under testing)_
 
 
-### Wordpress Implementation
+### WordPress Implementation
 **Files to reference:**
 * [/inc/class-ads.php](https://github.com/fusioneng/fusion-theme/blob/master/inc/class-ads.php)
 * [/parts/ads/freewheel-ad.php](https://github.com/fusioneng/fusion-theme/blob/master/parts/ads/freewheel-ad.php)
@@ -79,7 +79,7 @@ We are mostly using `tq.caid` (for ad targeting) and `tq.section` (for site sect
 Polar is implemented for branded content. This integration consists of two Polar touch points:
 * [Media Voice](https://mediavoice.com/present) (Polar CMS): This is where ad sales team populates data
 * [Plugin to generate script](http://plugin.mediavoice.com/bookmarklet/ui/index.html#)
-Handlebar template: Polar uses handlebar js to generate the ad. 
+Handlebar template: Polar uses handlebar.js to generate the ad. You can use the Plugin site by Polar to generate the template.
 
 Polar ad templates implemented as of 03/19: 
 - Homepage 
