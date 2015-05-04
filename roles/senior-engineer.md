@@ -5,3 +5,7 @@ Our Senior Engineers have two focuses: mentorship, and doing whatever needed to 
 As a Senior Engineer, you help define our application architecture, and provide input as to when we build in-house vs. choosing a vendor. When we run into tough technical challenges, we look to your leadership in solving them. You are a key catalyst to help us ship fast and often.
 
 We expect our Senior Engineers to already have grey hair (figurative or literal) from your experiences scaling past products and development teams.
+
+## Additional Readings
+
+* [Kitchen Soap - On Being A Senior Engineer](http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/). Senior engineers should be _mature_ engineers.
