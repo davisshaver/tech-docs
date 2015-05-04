@@ -10,12 +10,12 @@ Use public communication channels unless the discussion topic explicitly needs t
 
 A Hangout or Skype meeting didn't happen unless someone took notes and posted them afterwards.
 
-
-At Fusion we have establised a couple of best practices that improve our communication.
+Here are some other best practices we're adopting:
 
 * Say hello and goodbye when signing in and out of Slack
 * If you're planning to be offline or unavailable during normal hours, letting people know in advance on O2 or Slack
-* Try to give a couple weeks heads up for any PTO
-* Don't be afraid to tell people about your timeoff and people need to respect that. 
+* Try to give a couple weeks heads up for any paid time off.=
 
-[Remote Manifesto](https://href.li/?https://about.gitlab.com/2015/04/08/the-remote-manifesto/%20) is a really good reference
+Additional Readings:
+
+* [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
