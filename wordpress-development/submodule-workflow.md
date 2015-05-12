@@ -8,7 +8,7 @@ From time to time, especially if we have a lot of changes we might forget to not
 
 1. You would see something like this. 
 
-![submodule conflict](https://dl.dropboxusercontent.com/u/27106646/Github-Images/Screenshot%202015-05-12%2018.40.22.png)
+![screenshot 2015-05-12 18 40 22](https://cloud.githubusercontent.com/assets/638379/7600363/6e8d94bc-f8d8-11e4-910a-d03abe6b8a2c.png)
 
 which you don't want it to happen in your PR. 
 
