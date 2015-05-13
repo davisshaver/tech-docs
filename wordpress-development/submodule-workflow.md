@@ -1,6 +1,6 @@
 # Submodule
 
-We use submodule to maintain our internal and external plugins. Here's the best [article](http://blogs.atlassian.com/2013/03/git-submodules-workflows-tips/) I have found so far. 
+We use submodule to maintain our internal and external plugins. Here's the best [article](http://blogs.atlassian.com/2013/03/git-submodules-workflows-tips/) I have found so far of git submodule workflow. Also, [What is git submodule?](http://git-scm.com/book/en/v2/Git-Tools-Submodules) is also a nice article to start with.
 
 ## How to roll back submodule SHA1
 
@@ -16,4 +16,31 @@ which you don't want it to happen in your PR.
 
 3. Then you can commit the change. `git add -A; git commit -m "advance submodule to previous revision"`
 
-4. The best thing to avoid is to do `git submodule update` before anything is commiteed.
+4. Then you can push the change `git push origin <your branch name>`
+
+### Note
+The best thing to avoid is to do `git submodule update` before anything is commiteed.
+
+## What can you do to prevent this to happen
+
+1. You can do checkout and update submodule in the same time. `git pull origin master && git submodule update`
+
+2. You can ignore the whole submodule directory by doing this `git update-index --assume-unchanged lib/*`
+
+3. You can create custom shell function to checkout a branch and update submodules in the same time 
+
+```
+function go {
+    git checkout $1 && git submodule update
+}
+```
+
+So when you want to checkout a branch you can just do `go master`
+
+## GIT Gui
+
+If you're using Git GUI you can also do this. [Git submodule gui](http://stackoverflow.com/questions/12899163/where-is-git-submodule-update-in-sourcetree)
+
+## Summary
+
+All of this just some examples that you can do to avoid the headache. The most important thing is to pay attention to what you are committing but if you made a mistake which we are all then you can roll back by the steps above. 
