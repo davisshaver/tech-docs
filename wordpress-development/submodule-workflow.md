@@ -14,7 +14,7 @@ which you don't want it to happen in your PR.
 
 2. So to rollback the hash you need to go into the directory of that submodule and do `git checkout 1dba7d7ad049c06ffc7a35a6d65d4ff4098a5fcd` (according to the example above) which will checkout the previous version of the submodule. 
 
-3. Then you can commit the change. `git add -A; git commit -m "advance submodule to previous revision"`
+3. Then you can commit the change in your main directory that contains the submodule you just rolled back. `git add -A; git commit -m "advance submodule to previous revision"`.
 
 4. Then you can push the change `git push origin <your branch name>`
 
@@ -25,7 +25,7 @@ The best thing to avoid is to do `git submodule update` before anything is commi
 
 1. You can do checkout and update submodule in the same time. `git pull origin master && git submodule update`
 
-2. You can ignore the whole submodule directory by doing this `git update-index --assume-unchanged lib/*`
+2. You can ignore the whole submodule directory by doing this `git update-index --assume-unchanged <the directory you want to ignore>/*`
 
 3. You can create custom shell function to checkout a branch and update submodules in the same time 
 
@@ -38,8 +38,7 @@ function go {
 So when you want to checkout a branch you can just do `go master`
 
 ## GIT Gui
-
-If you're using Git GUI you can also do this. [Git submodule gui](http://stackoverflow.com/questions/12899163/where-is-git-submodule-update-in-sourcetree)
+Unfortunetely, there's no way to do this in Github for OsX. You have to do this manually.
 
 ## Summary
 
