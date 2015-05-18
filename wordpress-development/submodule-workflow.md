@@ -1,6 +1,15 @@
-# Submodule
+# Working with Git submodules
 
-We use submodule to maintain our internal and external plugins. Here's the best [article](http://blogs.atlassian.com/2013/03/git-submodules-workflows-tips/) I have found so far of git submodule workflow. Also, [What is git submodule?](http://git-scm.com/book/en/v2/Git-Tools-Submodules) is also a nice article to start with.
+We use Git submodules to maintain our internal and external plugin dependencies. New to submodules? Here are a couple articles to get you started:
+
+* [Git Submodules: Core Concept, Workflows And Tips](http://blogs.atlassian.com/2013/03/git-submodules-workflows-tips/)
+* [7.11 Git Tools - Submodules](http://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+In a nutshell, Git submodules let us keep standalone projects in separate Git repos. These projects are then loaded into our theme via submodules, typically in the `lib` directory. The theme repo only knows of the submodule based on the submodule URL and its committed hash.
+
+## Day to day workflow
+
+If you aren't actively working on a plugin submoduled into our theme, you probably shouldn't be committing Git submodule hash changes. You can make sure you're on the proper hash for your branch by running `git submodule update`.
 
 ## How to roll back submodule SHA1
 
@@ -19,7 +28,7 @@ which you don't want it to happen in your PR.
 4. Then you can push the change `git push origin <your branch name>`
 
 ### Note
-The best thing to avoid is to do `git submodule update` before anything is commiteed.
+The best thing to avoid is to do `git submodule update` before anything is committed.
 
 ## What can you do to prevent this to happen
 
