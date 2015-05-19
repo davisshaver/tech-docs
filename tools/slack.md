@@ -12,3 +12,5 @@ Our rooms include:
 * #tech-deploys - See when code is pushed to production.
 * #tech-next - Discussion around blog posts for [our section on the website](http://fusion.net/section/tech-product/).
 * #tech-money - Discussion around new revenue development with sales.
+
+Brand your Slack as Fusion with `#2A0337,#2A0337,#2DDBB6,#FFFFFF,#4A4664,#FFFFFF,#22E5A1,#D74577`
