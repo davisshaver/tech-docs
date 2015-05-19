@@ -8,6 +8,12 @@ We use Github for all of our development projects. Here's a quick summary:
 
 Read on for more detail on how we use Github: [Issues](#issues), [Labels](#labels), [Pull Requests](#pull-requests), [Milestones](#milestones)
 
+### Notifications
+
+A small note about email notifications. When you are first added to a project, you'll be subscribed by email to all updates from the repository. If you aren't actively involved with the project, can easily be overwhelming. You can control your notification frequency using this UI in the top right:
+
+![image](https://cloud.githubusercontent.com/assets/36432/7704146/8b0cdb3e-fdf1-11e4-96eb-220c0832ea9b.png)
+
 ## Issues
 
 * Clear titles make everything much more manageable. For instance, "Twitter optimization" is better as "Incorporate Twitter Card meta tags into header".
