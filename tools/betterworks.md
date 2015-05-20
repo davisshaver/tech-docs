@@ -20,3 +20,7 @@ Here's an example:
 > - Solicit hack day themes from other departments in the company.
 > - Include one non-tech team member on each Hack Day team for our three remaining hack days in Q2.
 > - Identify and onboard five additional non-technology team members to our Trello and Github product workflow
+
+## Additional Readings
+
+* [How Google sets goals: OKRs](https://www.gv.com/lib/how-google-sets-goals-objectives-and-key-results-okrs)
