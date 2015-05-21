@@ -7,3 +7,5 @@ As an Analytics Engineer, you know most analytics tools are built for e-commerce
 We expect Analytics Engineers to have an established track record applying analytics to real-world problems. You should be able to design experiments and communicate clearly how given metric X will be able to prove or disprove question Y. If you’re not already super keen on the future of news, you’re looking forward to it.
 
 Practical, demonstrable experience with Python/Pandas or R is a bonus.
+
+Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
