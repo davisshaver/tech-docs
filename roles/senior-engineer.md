@@ -6,6 +6,8 @@ As a Senior Engineer, you help define our application architecture, and provide 
 
 We expect our Senior Engineers to already have grey hair (figurative or literal) from your experiences scaling past products and development teams.
 
+Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+
 ## Additional Readings
 
 * [Kitchen Soap - On Being A Senior Engineer](http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/). Senior engineers should be _mature_ engineers.
