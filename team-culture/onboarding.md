@@ -67,4 +67,4 @@ We believe strongly in our [distributed team structure](https://about.gitlab.com
 
 ### OKRs
 
-We use BetterWorks to track "Objectives and Key Results" (OKRs). Your supervisor will help you understand how this works, and you will be expected to have your OKRs defined within your first month.
+We use [BetterWorks](https://github.com/fusioneng/tech-docs/blob/master/tools/betterworks.md) to track "Objectives and Key Results" (OKRs). Your supervisor will help you understand how this works, and you will be expected to have your OKRs defined within your first month.
