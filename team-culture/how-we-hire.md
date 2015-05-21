@@ -18,4 +18,4 @@ Application projects last 10-15 hours and can be mostly asynchronous. You'll be 
 
 For us a 'no' usually just means 'not right now'. We believe the media world is small and that the folks who inhabit it level-up at amazing rates. We're also constantly reinventing how we interface with each other and the organizations we serve. We're growing as much as you are and think that these application projects provide a nice, authentic way to hang and work with others in the field.
 
-Sound cool? Get in touch.
+Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
