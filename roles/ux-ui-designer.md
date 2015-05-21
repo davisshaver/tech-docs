@@ -7,3 +7,5 @@ As an Designer, you invent new UI patterns from our existing style guide when no
 We expect our Designers to have a strong sense of aesthetic. You are be an expert user of your wireframe / mockup / prototyping tools of choice. You already know that Photoshop Perfect isn’t reality, and that visual mockups are just a starting point. Experience prototyping with HTML / CSS and making changes with Chrome Inspector is expected.
 
 You should also access the usability of the product you design by defining success metrics, validating and measuring user success. You are an expert in: user research (interviews, focus group), user modeling (personas, scenarios, use cases, user flow), user testing, information architecture, interaction design principles.
+
+Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
