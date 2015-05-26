@@ -21,3 +21,7 @@ While how we go about our hack days is ever-evolving, here are some tips we've f
 * **Bring everyone up to speed.** When picking a hack day theme, everyone should understand the theme fully before they start on their projects. For instance, if the theme is "Slack Bots", you could provide some information in advance on what bots are, why they're useful, what makes a good bot, etc. It can also be helpful to provide a short, in-person lesson on the theme prior to pitches.
 * **Randomize teams.** Hack days are a good opportunity for the team to work with those they don't normally work with. It's alright to encourage everyone to work with new people. 2-4 people is a good team size.
 * **More structure is better than less.** While we want to keep hack days a space for experimentation and creativity, they go much better when all of the logistical details are nailed down solid
+
+## Additional Readings
+
+* [Hacking Company Culture](https://medium.com/@pedramkeyani/hacking-company-culture-1daa3be1d769). Some of the soft benefits of having regular hackathons.
