@@ -14,7 +14,9 @@ The pre-app form pitches a mini-project that will let our team work with you for
 
 ## Applications
 
-Application projects last 10-15 hours and can be mostly asynchronous. You'll be using [our Github workflow](http://fusion.net/story/109294/how-we-use-github-to-release-quality-code-at-fusion/) and hanging with us on Slack. At the end of the application, we'll make an offer (or not) and give you some feedback about our thinking. 
+Application projects last 10-15 hours and can be mostly asynchronous. Ideally, you'll contribute to an existing open source project or start a new one. Open source projects are typically easier to scope as standalone because they're less dependent on internal processes. Open source isn't a hard requirement though.
+
+During the project, you'll be using [our Github workflow](http://fusion.net/story/109294/how-we-use-github-to-release-quality-code-at-fusion/) and hanging with us on Slack. At the end of the application, we'll make an offer (or not) and give you some feedback about our thinking.
 
 For us a 'no' usually just means 'not right now'. We believe the media world is small and that the folks who inhabit it level-up at amazing rates. We're also constantly reinventing how we interface with each other and the organizations we serve. We're growing as much as you are and think that these application projects provide a nice, authentic way to hang and work with others in the field.
 
