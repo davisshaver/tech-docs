@@ -10,4 +10,4 @@ These are the current roles within our team. Roles loosely correlate with job ti
 * [UX / UI Designer](https://github.com/fusioneng/tech-docs/blob/master/roles/ux-ui-designer.md) - Translating our visual brand into what our users touch and feel.
 * [WordPress Engineer](https://github.com/fusioneng/tech-docs/blob/master/roles/wordpress-engineer.md) - Expertly using WordPress at the bleeding edge of what's possible.
 
-Does one of these sound like you? [Get in touch](mailto:tech-jobs@fusion.net). You could also [read through our values](https://github.com/fusioneng/tech-docs/blob/master/team-culture/values.md) and [learn how we hire](https://github.com/fusioneng/tech-docs/blob/master/team-culture/how-we-hire.md).
+Does one of these sound like you? [Get in touch](mailto:tech-jobs@fusion.net). You could also [read through our values](https://github.com/fusioneng/tech-docs/blob/master/team-culture/values.md), [learn how we hire](https://github.com/fusioneng/tech-docs/blob/master/team-culture/how-we-hire.md), or [walk through our onboarding process](https://github.com/fusioneng/tech-docs/blob/master/team-culture/onboarding.md).
