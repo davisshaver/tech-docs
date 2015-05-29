@@ -27,4 +27,4 @@ Qualifications:
 - Problem-solver by nature — deliberate in the questions you ask, and strong at debugging, QA, exhausting possibilities, and articulating requirements.
 - Effective and efficient in your usage and manipulation of analytics tools and behavioral research to drive greater understanding of product problems.
 
-#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net). You could also [read through our values](https://github.com/fusioneng/tech-docs/blob/master/team-culture/values.md), [learn how we hire](https://github.com/fusioneng/tech-docs/blob/master/team-culture/how-we-hire.md), or [walk through our onboarding process](https://github.com/fusioneng/tech-docs/blob/master/team-culture/onboarding.md).
