@@ -6,7 +6,7 @@ As a Senior Engineer, you help define our application architecture, and provide 
 
 We expect our Senior Engineers to already have grey hair (figurative or literal) from your experiences scaling past products and development teams.
 
-Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
 
 ## Additional Readings
 

@@ -6,4 +6,4 @@ As a Frontend Engineer, you love to apply hacks to improve perceived load time. 
 
 We expect our Frontend Engineers to be opinionated about JavaScript architecture. You know how to make the most of SCSS (and no, we’re not switching to LESS). A strong sense of aesthetic is a highly-valued plus.
 
-Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).

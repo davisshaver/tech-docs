@@ -25,4 +25,4 @@ Qualifications:
 - Knowledgeable in user research (interviews, focus group), user modeling (personas, scenarios, use cases, user flow), user testing, information architecture, interaction design principles
 - Experience working with a highly functional, distributed technology team.
 
-Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).

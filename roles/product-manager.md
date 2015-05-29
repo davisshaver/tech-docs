@@ -6,4 +6,4 @@ As a Product Manager, you are collaborating with editorial and the rest of the p
 
 We expect our Product Managers to have amazing attention to detail. You have experience working at startup pace — because it’s a challenge in itself – and you love to be part of a winning team. You are a problem solver by nature. You’re deliberate in the questions you ask, and strong at debugging, QA, exhausting possibilities, and articulating requirements.
 
-Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
