@@ -2,10 +2,24 @@
 
 Our Engineers are the most versatile. One day you may be working to incorporate analytics into the publishing experience, and another day you may be implementing a new template for long-form articles.
 
-As an Engineer, your PHP may not be as good as your JavaScript, or vice versa, but you’re always learning, applying, and teaching the rest of the team. You’re on the lookout for opportunities to abstract. If it makes sense to add test coverage, you add it.
-
-We expect our Engineers to be generalists with a tenacity for finding solutions.
-
 As our team grows, there will be some specialization. There will also be opportunities to become the leader in the tools you’re most interested in. You have pushed code to production before, and can explain what you did to meet or exceed expectations.
+
+Responsibilities:
+- Work across a variety of applications and programming languages, as your skills apply.
+- Be on the lookout for opportunities to abstract, or add test coverage.
+- Regularly learn, and teach the team what you’ve learned.
+- Propose solutions for problems editorial and business don’t even know they have.
+- Over-communicate, knowing communication is the oxygen of a distributed team.
+- Take ownership of, and have a sense of pride in, every Fusion product you touch.
+
+Qualifications:
+- Proven ability to ship great features that will make Fusion a world-class media brand.
+- 3-5+ years experience doing what you love — full-stack development.
+- Generalist with a tenacity for finding solutions.
+- Solid grounding in object-oriented, performant, and secure code.
+- Experience shipping to high-traffic production applications.
+- Passion for online media and journalism a plus.
+- Past work with video servers and ad servers a plus.
+- Open source contributions a plus.
 
 Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
