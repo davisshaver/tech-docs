@@ -8,4 +8,4 @@ We expect Analytics Engineers to have an established track record applying analy
 
 Practical, demonstrable experience with Python/Pandas or R is a bonus.
 
-Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).

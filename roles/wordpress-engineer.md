@@ -6,4 +6,4 @@ In this role, you are a team WordPress expert, providing guidance on architectur
 
 We expect you to have a deep knowledge of WordPress internals and APIs.  We follow [WordPress coding standards](wordpress-development/coding-standards.md) and expect that you probably do, too. You know when to use an existing plugin, and when to write your own. You can point us to previous open source contributions. Experience working with WordPress.com VIP or as a WordPress Core committer are both considered a plus.
 
-Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).

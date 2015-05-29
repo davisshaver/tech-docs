@@ -8,4 +8,4 @@ We expect our Engineers to be generalists with a tenacity for finding solutions.
 
 As our team grows, there will be some specialization. There will also be opportunities to become the leader in the tools you’re most interested in. You have pushed code to production before, and can explain what you did to meet or exceed expectations.
 
-Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
