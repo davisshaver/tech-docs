@@ -26,4 +26,4 @@ Qualifications:
 - Practical, demonstrable experience with Python/Pandas or R is a bonus.
 Knowledge of machine learning, NLP, and/or information retrieval concepts a bonus.
 
-#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net). You could also [read through our values](https://github.com/fusioneng/tech-docs/blob/master/team-culture/values.md), [learn how we hire](https://github.com/fusioneng/tech-docs/blob/master/team-culture/how-we-hire.md), or [walk through our onboarding process](https://github.com/fusioneng/tech-docs/blob/master/team-culture/onboarding.md).
