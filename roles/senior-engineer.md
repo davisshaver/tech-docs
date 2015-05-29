@@ -25,8 +25,8 @@ Qualifications:
 - A positive, constructive and collaborative attitude that inspires others to produce their best work
 - Open source contributions a plus.
 
-#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net).
+#### Sound cool? [Get in touch](mailto:tech-jobs@fusion.net). You could also [read through our values](https://github.com/fusioneng/tech-docs/blob/master/team-culture/values.md), [learn how we hire](https://github.com/fusioneng/tech-docs/blob/master/team-culture/how-we-hire.md), or [walk through our onboarding process](https://github.com/fusioneng/tech-docs/blob/master/team-culture/onboarding.md).
 
 ## Additional Readings
 
-* [Kitchen Soap - On Being A Senior Engineer](http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/). Senior engineers should be _mature_ engineers.
+* [Kitchen Soap - On Being A Senior Engineer](http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/). Senior engineers should be _mature_ engineers. 
