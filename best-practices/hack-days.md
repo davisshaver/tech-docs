@@ -24,4 +24,5 @@ While how we go about our hack days is ever-evolving, here are some tips we've f
 
 ## Additional Readings
 
+* [Developers and reporters have more in common than they think](http://www.poynter.org/news/mediawire/348877/developers-and-reporters-have-more-in-common-than-they-think/). Why Vox does hackathons.
 * [Hacking Company Culture](https://medium.com/@pedramkeyani/hacking-company-culture-1daa3be1d769). Some of the soft benefits of having regular hackathons.
