@@ -19,7 +19,7 @@ VIP Quickstart has its own update mechanism. First, make sure the Quickstart cod
 
 1. SCP the zip into your vagrant instance with `scp _file_ vagrant@vip.local:/home/vagrant/`
 1. Unzip the file
-1. Import the file with `wp import <folder> --authors=create --skip="image_resize" --url=vip.dev/fusion`
+1. Import the file with `wp import <folder> --authors=create --skip="image_resize" --url=vip.local/fusion`
 
 ## What to do if you want fusion-theme somewhere outside VIP Quickstart
 
