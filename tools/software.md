@@ -4,6 +4,7 @@ Looking for inspiration on what you should try out? These are some of the deskto
 
 **Communication**
 
+* [GifGrabber](http://www.gifgrabber.com/) or [Licecap](http://www.cockos.com/licecap/) for creating GIFs. The former has better UX, but is restricted to 30 seconds.
 * [Mailplane](http://mailplaneapp.com/)
 * Slack
 
@@ -17,6 +18,6 @@ Looking for inspiration on what you should try out? These are some of the deskto
 * Sublime Text 3
 * Vim
 
-**Task Management
+**Task Management**
 
 * [Things](https://culturedcode.com/things/)
