@@ -30,3 +30,4 @@ Qualifications:
 ## Additional Readings
 
 * [Kitchen Soap - On Being A Senior Engineer](http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/). Senior engineers should be _mature_ engineers. 
+* [Matt Briggs - The Role of a Senior Developer](http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer/) - Senior engineers understand the _why_ of application development, and guide teams through unexpected, but expected, problems get in the way of shipping.
