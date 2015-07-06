@@ -35,11 +35,17 @@ makes review simpler, because each review stage wil be looking at a small code.
 - Github's "Files Changed" tab is a good place to leave inline comments on
   specific parts of the changeset. More general comments can be left on the
   pull request's "Conversation" tab.  
+- The reviewer may suggest changes in the form of a pull request off of the
+  branch being reviewed, or in comments.
 - When the reviewer is done with their review, they will assign the PR back to
   the original developer to address any issues which were brought up.
 - The developer will make changes suggested, discuss the issue for clarity, and
-  may rewrite  reassign it to the reviewer when they are satisfied with their
+  may reassign it to the reviewer when they are satisfied with their
   work.
+- If a pull request needs final cleanup before merging (for example, merging
+  master back into the feature branch so that it can merge cleanly), the
+  reviewer can commit directly to the branch. However, avoid rewriting code
+  without consultation.
 - When the reviewer is satisfied with changes, they can either merge or assign
   the pull request to a team lead to merge and push to production.
 
@@ -125,3 +131,8 @@ switch will be.
 ## Additional readings
 
 * [Glen Sanford: On code review](http://glen.nu/ramblings/oncodereview.php) - "Pending code reviews represent blocked threads of execution[, code review should always be your top priority]"
+
+* [The Ten Commandments of Egoless
+  Programming](http://www.techrepublic.com/article/the-ten-commandments-of-egoless-programming/) - 
+  "Understand and accept that you will make mistakes. The point is to find them
+  early, before they make it into production."
