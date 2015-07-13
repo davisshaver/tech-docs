@@ -3,7 +3,7 @@
 We use Github for all of our development projects. Here's a quick summary:
 
 * Github Issues are often used in conjunction with [Trello cards](tools/trello.md) to break a project into multiple implementation steps.
-* We follow a feature branch pull request workflow. Developers are encourage to commit often and keep their commit history clean — no squashing, please.
+* We follow a feature branch pull request workflow. Developers are encourage to commit often and keep their commit history clean — no squashing, please. Our pull request workflow enables copious [code review](../team-culture/code-review.md).
 * An issue can comprise multiple pull requests. Issues should only be closed after final product owner signoff.
 * Pull requests are great for code conversations. Issues are great for product conversations.
 
@@ -21,8 +21,8 @@ A small note about email notifications. When you are first added to a project, y
 
 * Clear titles make everything much more manageable. For instance, "Twitter optimization" is better as "Incorporate Twitter Card meta tags into header".
 * Use in-description task lists to itemize components of the issue: `* [ ] Specific thing needing to be done`
-* Be descriptive in your issue description. Feel free to rewrite/modify as needed to clarify.
-* Issues should only be filed once they can be specific and actionable. Ideas and concepts should go in the Fusion for the Future repo.
+* Be descriptive in your issue description. Feel free to rewrite/modify as needed to clarify. If your issue is related to a Trello Card, link them explicitly.
+* Issues should only be filed once they can be specific and actionable by development. Ideas and concepts should go in the Fusion for the Future repo.
 
 ## Labels
 
@@ -38,7 +38,7 @@ We're rolling with 4 priority levels:
 
 ## Pull Requests
 
-Code is developed on feature branches. Pull requests are where we discuss the development in progress, and determine whether a given feature branch is ready for merging to master.
+Code is developed on feature branches. Pull requests are where we [discuss the development in progress](../team-culture/code-review.md), and determine whether a given feature branch is ready for merging to master.
 
 Please create your pull request as soon as you start work on a branch. If you are working on the pull request, assign it to yourself. If you're want feedback or a #reviewmerge from someone else, assign the pull request to them.
 
@@ -60,22 +60,8 @@ Issues should exist for pull requests as much as possible. Issues are how we tra
 
 ## Milestones
 
-Milestones are sometimes used alongside our Huboard-based status workflow. They are:
+Milestones are sometimes used alongside our Trello-based status workflow. They are:
 
 * Created on a product scope by product scope basis. For instance, our first milestone was improvements to the editorial experience.
 * Assigned a deadline, although this will serve more as a guide than a hard and fast rule. We don’t want to cut corners just because we have a deadline.
 * All enhancement issues will be created in advance of the milestone starting. Designs will be added as applicable, and implementation vetted from a technology perspective.
-
-## Code Reviews
-
-We conduct in depth code reviews with paired engineer teammates and ultimately through the team lead. 
-
-1. Be satisfied with your work
-1. Create a pull request and add the issue number to the comments
-1. Assign the issue to your partner
-1. Have your review partner check the code
-1. The partner needs to sign off in the pull request
-1. The partner will reassign the issue back to you
-1. Move the issue card to ready for launch in huboard
-1. Comment on the pull request for the team lead gate keeper to merge to master
-1. Once merged mark the issue as completed
