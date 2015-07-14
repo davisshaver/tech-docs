@@ -34,4 +34,4 @@ Name | Description
 
 # Suggested Readings
 
-* [Rebooting Open Source at Facebook; James Pearce](https://www.youtube.com/watch?v=fzL6Zoy_ndk). Engaging look at how open source is valued at Facebook, and is a critical part of their engineering practices.
+* [Rebooting Open Source at Facebook; James Pearce](https://www.youtube.com/watch?v=fzL6Zoy_ndk). Engaging look at how open source is valued at Facebook and integrated into their engineering practices.
