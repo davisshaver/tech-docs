@@ -31,3 +31,7 @@ Name | Description
 [Shortcake Factory](https://github.com/fusioneng/shortcake-bakery) | A fine selection of shortcodes for your WordPress. Optionally used with [Shortcake](https://github.com/fusioneng/shortcake).
 [Speed Bumps](https://github.com/fusioneng/speed-bumps) | Inject arbitrary speed bumps at arbitrary positions within a blob of text.
 [Unified Post Types](https://github.com/fusioneng/Unified-Post-Types) | Consolidates a whitelist of custom post types to one "Manage Posts" view.
+
+# Suggested Readings
+
+* [Rebooting Open Source at Facebook; James Pearce](https://www.youtube.com/watch?v=fzL6Zoy_ndk). Engaging look at how open source is valued at Facebook, and is a critical part of their engineering practices.
