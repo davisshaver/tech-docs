@@ -6,10 +6,10 @@ Fusion maintains a [number of open source projects](../team-culture/open-source.
 
 In the week or so leading up to a release, here are the steps you'll likely want to perform:
 
-* Update screenshots (as necessary).
- * For WordPress plugins, the screenshots need to follow the format of `screenshot-[\d]+.(jpg|png|gif)` in the project root. This is how WordPress.org will know which screenshots to display.
- * For any other projects, screenshots can live in a subdirectory and be linked to from the readme.
-* Update documentation (as necessary). Capture configuration details for new features and API changes. It can also be a good opportunity to edit for clarity.
+* Update screenshots (as necessary). Capture core functionality and admin screens (if applicable). 
+* For WordPress plugins, the screenshots need to follow the format of `screenshot-[\d]+.(jpg|png|gif)` in the project root. This is how WordPress.org will know which screenshots to display.
+* For any other projects, screenshots can live in a subdirectory and be linked to from the readme.
+* Update documentation (as necessary). Capture configuration details for new features and API changes. It can also be a good opportunity to edit for clarity. A good way to begin documentation efforts is setting up the plugin in a clean install of WordPress. Approach the problem with fresh eyes.
 * Update the changelog with all improvements and bug fixes for the release. For WordPress plugins, the changelog lives in `readme.txt`. Non-WP projects should have `CHANGELOG.md` in their project root.
 * Draft the release post.
 * Outline a promotion plan for the release post.
