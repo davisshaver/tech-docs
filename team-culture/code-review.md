@@ -17,7 +17,7 @@ We're currently using Github for everything. Read up on [our Github workflow](..
 - The reviewer may suggest changes in the form of a pull request off of the branch being reviewed, or in comments. - When the reviewer is done with their review, they will assign the PR back to the original developer to address any issues which were brought up.
 - The developer will make changes suggested, discuss the issue for clarity, and may reassign it to the reviewer when they are satisfied with their work.
 - If a pull request needs final cleanup before merging (for example, merging master back into the feature branch so that it can merge cleanly), the reviewer can commit directly to the branch. However, avoid rewriting code without consultation.
-- When the reviewer is satisfied with changes, they can either merge or assign the pull request to a team lead to merge and push to production.
+- When the reviewer is satisfied with changes, they can either merge or assign the pull request to a team lead to merge and push to production. The original developer (and ideally the reviewer) should both be around for a couple hours following merge to ensure a smooth landing.
 
 ## What code review is
 
