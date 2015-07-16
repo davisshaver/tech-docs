@@ -2,7 +2,9 @@
 
 A constant process of code review is a core part of our team's software development workflow. Code review and pairing on code are necessary to maintain quality output, as well as build cohesive styles in our work. Having a well-understood and cohesive style can make all our work easier to approach and maintain for new as well as established developers. If done right, code review can also be a learning process for all involved. Here's [a typical code review workflow at Fusion](#a-typical-code-review-workflow):
 
-- [What code review is](#what-code-review-is) - [How to review code](#how-to-review-code) - [How to receive code review](#how-to-receive-code-review)
+- [What code review is](#what-code-review-is)
+- [How to review code](#how-to-review-code)
+- [How to receive code review](#how-to-receive-code-review)
 
 ## A typical code review workflow
 
@@ -17,7 +19,7 @@ We're currently using Github for everything. Read up on [our Github workflow](..
 - If a pull request needs final cleanup before merging (for example, merging master back into the feature branch so that it can merge cleanly), the reviewer can commit directly to the branch. However, avoid rewriting code without consultation.
 - When the reviewer is satisfied with changes, they can either merge or assign the pull request to a team lead to merge and push to production.
 
- ## What code review is
+## What code review is
 
 A good way to visualize the objectives of code review is [this analogy](http://blog.d3in.org/post/111338685456/maslows-pyramid-of-code-review) to Maslow's "Hierarchy of Needs" pyramid. From most basic to the highest level, a reviewer is checking that code is **Correct**, **Secure**, **Readable**, **Elegant**, and **Altruistic**. It's important to keep this sense of priorities: if a change introduces unhandled edge cases, bugs, or security vulnerabilities, those issues need to be addressed before coding style guidelines or beautification practices preferences will matter.
 
