@@ -20,6 +20,7 @@ Some basic guidelines apply to all code deploys:
 - Keep deploys as small and as atomic as possible. When things go wrong, it's much easier to track down and fix small changes. 
 - Judge when to leave feedback for the engineer to clean up, and when to just take it over the finish line for them. Work through at least a couple rounds of feedback before diving in to clean up any remaining items. 
 - After merging and deploying a pull request with an associated issue, mark the issue with the "QA" label, so that product managers can follow up in production and verify that the code pushed actually fixed the issue.
+
 Special attention should be given to working with Automattic's engineers who perform the final review and deployment step for our production theme:
 - Commits (to VIP) should be a descriptive subject and link to corresponding pull requests. This is really valuable context for other people watching your commits, and for yourself three months down the road. 
 - Address VIP feedback promptly. Prompt, courteous replies lead to a strong working relationship. When talking about code, include the SVN revision.
