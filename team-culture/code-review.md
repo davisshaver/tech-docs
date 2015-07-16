@@ -25,7 +25,7 @@ A good way to visualize the objectives of code review is [this analogy](http://b
 
 ![code-review-pyramid](https://cloud.githubusercontent.com/assets/665992/7326019/1603bcd2-ea77-11e4-8510-4d7f76ca2ad1.png)
 
- ### How to review code
+### How to review code
 
 *As a reviewer*, your first job is to get an understanding of what the proposed change does and why it's essential. There's no point in critiquing anything until you understand what it does, why it's necessary, and what decisions went into the way this was built.
 
@@ -41,7 +41,7 @@ As readability is inherently subjective, this requires the ability to look back 
 
 Finally, check for elegance and overall quality. Code should follow existing and known patterns, so that others can understand it at a glance. If a change introduces a chance to refactor surrounding functionality, to abstract and standardize old code into new patterns, suggest those opportunities. 
 
- ### How to receive code review
+### How to receive code review
 
 *As the person receiving the code review*, your job is to learn from suggestions. Defensiveness, stubbornness, or impatience can prevent you from getting the most out of suggestions. It's OK to explain yourself if you feel the reviewer seemed to misunderstand your intent. Arguing semantics or insisting on the correctness of one approach is almost always a bad habit and distracts from the team process. If something isn't clear to someone familiar with the codebase who's reviewing your work today, it will definitely be unclear to a new developer being on-boarded six months from now.
 
