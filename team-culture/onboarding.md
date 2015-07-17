@@ -45,6 +45,7 @@ Here are some of the basics:
 - Work related (what should I be working on, I noticed a bug, etc.)
 	- Use public communication channels unless the discussion topic explicitly needs to be private. If you need a private conversation, Direct Messages in Slack or email works well.
 	- The #tech channel in Slack is always a good place to start a conversation. You can ping your supervisor or another team member by typing `@<username>` or ping the entire channel with `@channel`.
+	- Want to feel more Fusion-y? Set your Slack sidebar theme to `#2A0337,#2A0337,#2DDBB6,#FFFFFF,#4A4664,#FFFFFF,#22E5A1,#D74577`
 
  
 ## Your first week
