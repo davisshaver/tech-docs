@@ -54,7 +54,7 @@ We realize that during the first week you will be spending a lot of time setting
 
 We'll work with you to identify a project that is well defined, suited to your abilities, and scoped to a manageable time frame. We want you to have fun and be successful with your first project. Be sure to ask questions and communicate if you're feeling confused or in over your head. Everybody on the team has been where you are at some point, and we're happy to help each other out.
 
-As a new hire you’ll write an intro post that’s published on fusion.net in the Tech Product section. It’s a great opportunity to introduce yourself to the company as a whole and let the world know that you work for Fusion. Your supervisor will work with you through composing, editing, and shipping your intro post. You’ll probably be surprised at how good it feels when it goes live and you can show off to your family and friends.
+As a new hire you’ll write an intro post that’s published on Fusion.net in the Tech Product section ([read past intro posts](http://fusion.net/topic/tech-team-introductions/)). It’s a great opportunity to introduce yourself to the company as a whole and let the world know that you work for Fusion. Your supervisor will work with you through composing, editing, and shipping your intro post. You’ll probably be surprised at how good it feels when it goes live and you can show off to your family and friends.
 
 ## Your first month
 
