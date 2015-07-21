@@ -26,15 +26,16 @@ A small note about email notifications. When you are first added to a project, y
 
 ## Labels
 
-We're rolling with 4 priority levels:
+Across our internal, private repositories, we have a consistent set of labels to make our issues understandable across repos.
 
-**Blocker:** Items that NEED to be addressed within the next few hours. These are things that will make or break large business decisions or prohibit a major project from launching on time. Rule of thumb: If there's an alternate way of accomplishing an item, it's not a blocker. 
-
-**High:** Items that should be addressed within the next 3 business days. There's no magic number of high priority issues that need to be in the queue at any given time, but they should all be immediately actionable and assigned to a developer for work. 
-
-**Medium:** Items that can be put off until the next full work week. Some of these may soon be designated as high based on developer bandwidth, but if they can't be, your feelings won't get hurt. 
-
-**Low:** Items that we definitely want to get to, but if it takes 2+ weeks to get to them, that's ok. The key is to keep these concise - anything too vague needs to go to <i>for-the-future</i>, developed as a Trello card, or published in 02. These low priority issues should still be actionable, in case a developer wants to grab as part of a relatable higher-ranked ticket. 
+* [bug](https://github.com/issues?utf8=%E2%9C%93&q=label%3Abug+user%3Afusioneng+sort%3Aupdated-desc+is%3Aopen+is%3Aprivate+) - An issue for an already launched feature that needs to be fixed. How quickly it should be fixed will be denoted by a priority label.
+* [priority:blocker](https://github.com/issues?q=label%3Apriority%3Ablocker+user%3Afusioneng+sort%3Aupdated-desc+is%3Aopen+is%3Aprivate) - Issues that need to be addressed as soon as technically possible. These are things that will make or break large business decisions or prohibit a major project from launching on time. When addressing a blocker, engineering may want to consider hacky workarounds to address the immediate business need.
+* [priority:high](https://github.com/issues?q=label%3Apriority%3Ahigh+user%3Afusioneng+sort%3Aupdated-desc+is%3Aopen+is%3Aprivate) - Issues that would ideally be addressed within the next few business days. They should be immediately actionable by engineering, and assigned.
+* [priority:medium](https://github.com/issues?q=label%3Apriority%3Amedium+user%3Afusioneng+sort%3Aupdated-desc+is%3Aopen+is%3Aprivate) - Issues that would ideally be addressed within two to three weeks of creation.
+* [priority:low](https://github.com/issues?q=label%3Apriority%3Alow+user%3Afusioneng+sort%3Aupdated-desc+is%3Aopen+is%3Aprivate) - Actionable issues we want to get to when we have time. The key is to keep these concise - anything too vague needs to go to _for-the-future_, developed as a Trello card, or published in 02.
+* [review:design](https://github.com/issues?utf8=%E2%9C%93&q=label%3Areview%3Adesign+user%3Afusioneng+sort%3Aupdated-desc+is%3Aopen+is%3Aprivate+) - This unit of work currently needs to be reviewed in some way by design.
+* [review:engineering](https://github.com/issues?utf8=%E2%9C%93&q=label%3Areview%3Aengineering+user%3Afusioneng+sort%3Aupdated-desc+is%3Aopen+is%3Aprivate+) - This unit of work currently needs to be reviewed in some way by design.
+* [review:product](https://github.com/issues?utf8=%E2%9C%93&q=label%3Areview%3Aproduct+user%3Afusioneng+sort%3Aupdated-desc+is%3Aopen+is%3Aprivate+) - This unit of work currently needs to be reviewed in some way by product.
 
 ## Pull Requests
 
