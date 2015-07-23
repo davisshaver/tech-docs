@@ -24,3 +24,4 @@ Here's an example:
 ## Additional Readings
 
 * [How Google sets goals: OKRs](https://www.gv.com/lib/how-google-sets-goals-objectives-and-key-results-okrs)
+* [The Art of the OKR](http://eleganthack.com/the-art-of-the-okr/) - Objectives are inspirational, key results are measurable.
