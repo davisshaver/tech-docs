@@ -22,7 +22,7 @@ Name | Version | Description
 [Publishing Checklist](https://github.com/fusioneng/publishing-checklist) | 0.1.0 | Publishing Checklist is a developer tool for adding pre-flight editorial checklists to WordPress posts. 
 [Shortcake (Shortcode UI)](https://github.com/fusioneng/Shortcake) | 0.4.0 | Used alongside `add_shortcode()`, Shortcake supplies a user-friendly interface for adding a shortcode to a post, and viewing and editing it from within the content editor.
 [Shortcake Factory](https://github.com/fusioneng/shortcake-bakery) | 0.1.0 | A fine selection of shortcodes for your WordPress. Optionally used with [Shortcake](https://github.com/fusioneng/shortcake).
-[Speed Bumps](https://github.com/fusioneng/speed-bumps) | Intelligently insert speed bumps into site content.
+[Speed Bumps](https://github.com/fusioneng/speed-bumps) | 0.1.0 | Intelligently insert speed bumps into site content.
 
 ## Upcoming
 
