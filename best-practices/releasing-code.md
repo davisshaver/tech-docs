@@ -6,6 +6,7 @@ Fusion maintains a [number of open source projects](../team-culture/open-source.
 
 In the week or so leading up to a release, here are the steps you'll likely want to perform:
 
+* Make sure all closed issues and merged pull requests are assigned to the appropriate milestone. For those coming back to the project at a later date, this is tremendously helpful when trying to figure out what was changed in a release.
 * Update screenshots (as necessary). Capture core functionality and admin screens (if applicable). 
 * For WordPress plugins, the screenshots need to follow the format of `screenshot-[\d]+.(jpg|png|gif)` in the project root. This is how WordPress.org will know which screenshots to display.
 * For any other projects, screenshots can live in a subdirectory and be linked to from the readme.
