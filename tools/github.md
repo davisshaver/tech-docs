@@ -19,10 +19,10 @@ A small note about email notifications. When you are first added to a project, y
 
 ## Issues
 
+* Issues should only be filed once they can be specific and actionable by development. Github issues are a useful filter for distinguishing what's actually actionable. They're also a useful history for technical conversation that lives close to the codebase.
 * Clear titles make everything much more manageable. For instance, "Twitter optimization" is better as "Incorporate Twitter Card meta tags into header".
 * Use in-description task lists to itemize components of the issue: `* [ ] Specific thing needing to be done`
 * Be descriptive in your issue description. Feel free to rewrite/modify as needed to clarify. If your issue is related to a Trello Card, link them explicitly.
-* Issues should only be filed once they can be specific and actionable by development. Ideas and concepts should go in the Fusion for the Future repo.
 
 ## Labels
 
