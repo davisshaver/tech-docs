@@ -13,7 +13,7 @@ A Hangout or Skype meeting didn't happen unless someone took notes and posted th
 Here are some other best practices we're adopting:
 
 * Say hello and goodbye when signing in and out of Slack
-* If you're planning to be offline or unavailable during normal hours, letting people know in advance on O2 or Slack
+* If you're planning to be offline or unavailable during normal hours, letting people know in advance on O2. Use `#<name>afk` to tag your post.
 * Try to give a couple weeks heads up for any paid time off.=
 
 Additional Readings:
