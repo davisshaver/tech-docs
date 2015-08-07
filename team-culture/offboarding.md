@@ -16,11 +16,11 @@ Your HR representative will ask if you'd participate in an exit interview. These
 Your HR representative will send you a FedEx label via email. You can take that label, along with your equipment, to FedEx, and they'll help you pack & ship any hardware that may have been provided.
 
 ### Your last day
-By the end of your last day, you should have done the following things:
-- [ ] Documented on Trello and Github the current status of any work currently assigned to you.
-- [ ] Returned your equipment to Fusion HQ.
-- [ ] Removed yourself from the `fusioneng` Github organization (don't worry, you'll still be able to see this repo).
-- [ ] Published a goodbye post on O2 – let us know what you're doing next, share contact information, a farewell GIF, whatever you'd like.
+Here's what you'll need to do on your last day.
+- [ ] Document on Trello and Github the current status of any work currently assigned to you.
+- [ ] Return your equipment to Fusion HQ.
+- [ ] Remove yourself from the `fusioneng` Github organization (don't worry, you'll still be able to see this repo).
+- [ ] Publish a goodbye post on O2 – let us know what you're doing next, share contact information, a farewell GIF, whatever you'd like.
 
 ### The final act
 Your last responsibility:
