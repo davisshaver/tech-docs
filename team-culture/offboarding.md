@@ -20,7 +20,8 @@ By the end of your last day, you should have done the following things:
 - [ ] Documented on Trello and Github the current status of any work currently assigned to you.
 - [ ] Returned your equipment to Fusion HQ.
 - [ ] Removed yourself from the `fusioneng` Github organization (don't worry, you'll still be able to see this repo).
-- [ ] Published a goodbye post on O2 – let us know what you're doing next, share contact information, a farewell GIF.
+- [ ] Published a goodbye post on O2 – let us know what you're doing next, share contact information, a farewell GIF, whatever you'd like.
 
 ### The final act
-Your last responsibility: Email your HR representative requesting that they deactivate your Google Apps account.
+Your last responsibility:
+- [ ] Email your HR representative requesting that they deactivate your Google Apps account.
