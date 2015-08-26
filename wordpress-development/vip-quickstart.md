@@ -28,5 +28,5 @@ Add a line like this to your vagrant configuration file:
 config.vm.synced_folder "/$PATH_TO/fusion-theme/", "/srv/www/wp-content/themes/vip/fusion-theme"
 ```
 
-Don't add this until *after* the provisioning step of setting up VIP Quickstart, and if you have to reprovision, you probably want to remove it beforehand. See the note about Fusion theme files in step 1 of Setting up VIP Quickstart for details.
+Don't add this until *after* the provisioning step of setting up VIP Quickstart. If you have to reprovision, you'll probably want to remove it beforehand. See the note about how Fusion theme files affect provisioning time in step 1 of Setting up VIP Quickstart for details.
 
