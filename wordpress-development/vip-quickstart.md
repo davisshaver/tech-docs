@@ -4,7 +4,7 @@ Because Fusion.net is hosted on WordPress.com VIP, we use [VIP Quickstart](https
 
 ## Setting up VIP Quickstart
 
-1. Follow the <a href="https://vip.wordpress.com/documentation/quickstart/">VIP Quickstart</a> documentation to configure the virtual machine. If all goes well, you'll have a working WordPress installation at `vip.dev`.
+1. Follow the <a href="https://vip.wordpress.com/documentation/quickstart/">VIP Quickstart</a> documentation to configure the virtual machine. If all goes well, you'll have a working WordPress installation at `vip.dev`. Be sure to go through this process *before* cloning or syncing the Fusion theme directory (see below). If the Fusion theme is present, the provisioning process will take forever because it will try to `chmod` and `chown` each file in the theme, including everything in `/node_modules/` and `.git` directories (that's a lot of files). 
 1. Recursively clone the Fusion theme repo into `/www/wp-content/themes/vip/`. Make sure you keep the folder name as `fusion-theme`. Emphasis on _recursively_; we use git submodules, so the sky will fall on your head if you don't have them checked out. You can use `git clone --recursive <github-url>`
 1. <a href="http://vip.local/wp-admin/network/site-new.php">Create a new site</a> on the WordPress network called, ‘Fusion’, and have it live at `vip.local/fusion/`. Because of some idiosyncracies in WordPress, it's better to have your working site as a secondary site on the network.
 1. <a href="http://vip.local/wp-admin/network/themes.php">Enable the Fusion theme</a> to be activated on the site..</li>
@@ -27,4 +27,6 @@ Add a line like this to your vagrant configuration file:
 ```
 config.vm.synced_folder "/$PATH_TO/fusion-theme/", "/srv/www/wp-content/themes/vip/fusion-theme"
 ```
+
+Don't add this until *after* the provisioning step of setting up VIP Quickstart. If you have to reprovision, you'll probably want to remove it beforehand. See the note about how Fusion theme files affect provisioning time in step 1 of Setting up VIP Quickstart for details.
 
