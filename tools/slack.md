@@ -17,4 +17,4 @@ Our rooms include:
 * [#prod-video](https://fusionnetwork.slack.com/messages/prod-video/) - Discussion with video and OTT teams.
 * [#tech-next](https://fusionnetwork.slack.com/messages/tech-next/) - Discussion around blog posts for [our section on the website](http://fusion.net/section/tech-product/).
 
-Brand your Slack as Fusion with `#2A0337,#2A0337,#2DDBB6,#FFFFFF,#4A4664,#FFFFFF,#22E5A1,#D74577`
+[Brand your Slack](https://slack.zendesk.com/hc/en-us/articles/205166337-Customizing-your-Slack-theme) as Fusion with `#2A0337,#2A0337,#2DDBB6,#FFFFFF,#4A4664,#FFFFFF,#22E5A1,#D74577`
