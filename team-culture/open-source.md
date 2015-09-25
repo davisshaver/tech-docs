@@ -9,6 +9,8 @@ These are all of the current and upcoming open source projects Fusion is embarki
 Name | Version | Description
 ---- | ------- | -----------
 [GIF2HTML5](https://github.com/fusioneng/gif2html5-app) | 0.1.0 | Converts GIFs to HTML5 video for performance, and pushes the files to S3.
+[Feed Cleaner](https://github.com/fusioneng/feed-cleaner-app) | alpha | Reads, cleans and serves feeds.
+[MRSS To Facebook Video](https://github.com/fusioneng/mrss-to-facebook-video-app) | alpha | Upload videos to Facebook from a MRSS feed.
 
 ### WordPress Plugins
 
@@ -25,12 +27,6 @@ Name | Version | Description
 [Speed Bumps](https://github.com/fusioneng/speed-bumps) | 0.1.0 | Intelligently insert speed bumps into site content.
 
 ## Upcoming
-
-### Middleware
-
-Name | Description
----- | -----------
-[MRSS To Facebook Video](https://github.com/fusioneng/mrss-to-facebook-video-app) | Upload videos to Facebook from a MRSS feed.
 
 ### WordPress Plugins
 
