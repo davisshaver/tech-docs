@@ -41,6 +41,8 @@ Across our internal, private repositories, we have a consistent set of labels to
 
 Code is developed on feature branches. Pull requests are where we [discuss the development in progress](../team-culture/code-review.md), and determine whether a given feature branch is ready for merging to master.
 
+The ideal pull request is as atomic as possible. Small, atomic changes make it much easier for the reviewer to understand and verify the change. If a branch seems like it’s going to span multiple changes, it's likely best to split it into multiple pull requests.
+
 Please create your pull request as soon as you start work on a branch. If you are working on the pull request, assign it to yourself. If you're want feedback or a #reviewmerge from someone else, assign the pull request to them.
 
 Remember to check your diff regularly to make sure you're only changing code you expect to be.
@@ -55,7 +57,7 @@ This makes it easy to see the history of pull requests for an issue:
 
 ![image](https://cloud.githubusercontent.com/assets/36432/4772139/58f18cca-5b95-11e4-8895-6f8dc5b42cbc.png)
 
-When a pull request touches anything visual or on the frontend, include a screenshot so it's easier to confirm expected results.
+The title and/or description should summary what's changing, and why. When a pull request touches anything visual or on the frontend, include a screenshot so it's easier to confirm expected results.
 
 Issues should exist for pull requests as much as possible. Issues are how we track a feature question from creation to closing.
 
