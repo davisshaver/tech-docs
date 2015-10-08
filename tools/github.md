@@ -41,7 +41,7 @@ Across our internal, private repositories, we have a consistent set of labels to
 
 Code is developed on feature branches. Pull requests are where we [discuss the development in progress](../team-culture/code-review.md), and determine whether a given feature branch is ready for merging to master.
 
-The ideal pull request is as atomic as possible. Small, atomic changes make it much easier for the reviewer to understand and verify the change. If a branch seems like it’s going to span multiple changes, it's likely best to split it into multiple pull requests.
+The ideal pull request is as atomic as possible. Small, atomic changes make it much easier for the reviewer to understand and verify the change. If a branch seems like it’s going to span _unrelated_ multiple changes, it's likely best to split it into multiple pull requests.
 
 Please create your pull request as soon as you start work on a branch. If you are working on the pull request, assign it to yourself. If you're want feedback or a #reviewmerge from someone else, assign the pull request to them.
 
