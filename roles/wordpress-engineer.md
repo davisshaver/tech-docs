@@ -1,6 +1,6 @@
 # WordPress Engineer
 
-Our WordPress Engineer role will get to work on one of the most ambitious WordPress-based projects in the world. We’re doing things no one in their right mind would think of doing — and look forward to sharing our successes through open source projects, blog posts, and talks at conferences.
+Our WordPress Engineers get to work on one of the most ambitious WordPress-based projects in the world. We’re doing things no one in their right mind would think of doing — and look forward to sharing our successes through open source projects, blog posts, and talks at conferences.
 
 Responsibilities:
 - Be one of the team’s WordPress experts, providing guidance on architecture and implementation best practices.
