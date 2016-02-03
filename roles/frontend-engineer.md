@@ -22,6 +22,8 @@ Our Frontend Engineers own the user-facing experience, both for readers and edit
 - Understands the importance of page load performance, web accessibility and security, and leverages the best coding practices.
 - Should be familiar with the concepts of Functional Programming (closures, higher-order
   functions, first-class functions, immutability, etc.) and Prototypal Inheritance.
+- Should be familiar with CSS naming schemes like BEM, methodologies like OOCSS and
+  SMACSS.
 - Should be familiar with at least one browser web authoring and debugging tool (like DevTools
   for Chrome).
 - Proven ability to ship great features that will make Fusion a world-class media brand.
