@@ -2,7 +2,7 @@
 
 Our Frontend Engineers own the user-facing experience, both for readers and editorial. We want the reading experience to be insanely good across a variety of screen sizes and platforms. We want the video viewing experience to be smooth as butter.
 
-Responsibilities:
+**Responsibilities:**
 - Help develop presentation layer utilizing HTML5, CSS3 and JavaScript.
 - Write clean and modular code, and actively retool to mitigate technical debt.
 - Apply hacks to improve perceived load time.
@@ -12,7 +12,7 @@ Responsibilities:
 - Over-communicate, knowing communication is the oxygen of a distributed team.
 - Take ownership of, and have a sense of pride in, every Fusion product you touch.
 
-Qualifications:
+**Qualifications:**
 - Must have a solid understanding of basic concepts in Browser technologies - HTML5, CSS3
   and JavaScript. Must be good with all three, not just one or two.
 - Must have knowledge of DOM structure, DOM API, DOM manipulation and CSS Box model.
@@ -29,7 +29,7 @@ Qualifications:
 - Opinionated about JavaScript architecture.
 - Portfolio demonstrating high attention to detail.
 
-Preferred Qualifications:
+**Preferred Qualifications:**
 - Strong sense of aesthetic a plus.
 - Open source contributions a plus.
 - Experience with at least one web framework Express.JS/Hapi.JS a plus.
