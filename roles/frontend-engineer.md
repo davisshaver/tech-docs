@@ -30,6 +30,7 @@ Our Frontend Engineers own the user-facing experience, both for readers and edit
 - 3-5+ years experience doing what you love — frontend development.
 - Opinionated about JavaScript architecture.
 - Portfolio demonstrating high attention to detail.
+- Be capable of adapting to ever changing landscape of front-end web.
 
 **Preferred Qualifications:**
 - Strong sense of aesthetic a plus.
