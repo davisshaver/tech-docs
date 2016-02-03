@@ -13,7 +13,7 @@ Our Frontend Engineers own the user-facing experience, both for readers and edit
 - Take ownership of, and have a sense of pride in, every Fusion product you touch.
 
 **Qualifications:**
-- Must have a solid understanding of basic concepts in Browser technologies - HTML5, CSS3
+- Must have a solid understanding of basic concepts in Browser technologies - HTML5, CSS2/CSS3
   and JavaScript. Must be good with all three, not just one or two.
 - Must have knowledge of DOM structure, DOM API, DOM manipulation and CSS Box model.
 - Strong knowledge of Responsive Web Design techniques.
