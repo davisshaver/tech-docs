@@ -11,4 +11,4 @@ We've categorized our documents into these sections:
 
 Have a question? Please [open an issue](https://github.com/fusioneng/tech-docs/issues/new) and we'll address it as quick as we can. If you're contributing a change, please follow pull request workflow instead of committing directly to master.
 
-Want to become a trusted contributor? [We're hiring engineers, designers, and product managers](http://next.fusion.net/work-with-us/).
+Want to become a trusted contributor? [We're hiring engineers, designers, and product managers](https://careers-fusion.icims.com/jobs/intro?hashed=-435776033).
