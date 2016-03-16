@@ -33,3 +33,5 @@ Don't add this until *after* the provisioning step of setting up VIP Quickstart.
 ## Using SSL in local development
 
 It takes a bit more manual work, but it is possible to setup your local development environment to use SSL, which is necessary for testing and development of certain areas of the theme. Follow <a href="https://switchcaseblog.wordpress.com/2016/02/22/creating-a-self-signed-ssl-for-local-development-with-vagrant-nginx/">these instructions</a> to get started.
+
+Once you have completed the instructions, you'll need to manually accept the self-signed certificate for the site within your browser(s), instructions vary by browser but Chrome on OS X users can <a href="http://www.robpeck.com/2010/10/google-chrome-mac-os-x-and-self-signed-ssl-certificates/">follow these</a>.
